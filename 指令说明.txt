@@ -1,0 +1,68 @@
+可能需要安装 Node.js 环境：
+https://nodejs.org/dist/v20.20.1/node-v20.20.1-x64.msi
+
+安装完成后，可在终端执行 `node -v` 确认是否安装成功。
+如果系统里没有方便的终端，也可以安装 Git for Windows：
+https://github.com/git-for-windows/git/releases
+
+==================================================
+推荐使用：process-ordersV4.js
+==================================================
+
+当前推荐命令：
+node process-ordersV4.js <json文件> [输出文件夹名] [-JSON=true] [--box-size=15] [--skip-optimize]
+
+说明：
+1. `process-ordersV4.js` 现在会先自动执行拣货优化，再继续生成 PDF。
+2. 自动优化后，会把“优化后的总 JSON”直接覆盖回原始输入文件。
+3. 如果不想优化，也不想覆盖原 JSON，可加 `--skip-optimize`。
+4. `--skip-optimize` 只是一个开关参数，不会被当成输出文件夹；如果没有额外传输出目录，默认仍输出到 `output`。
+5. `-JSON=true` 会在每个批次文件夹里保留 `order.json`。
+6. `--box-size=15` 用于控制每批最多装多少个 UPC 类别。
+7. 除 `-JSON=true`、`--box-size=...`、`--skip-optimize` 之外，第二个未识别参数会被当成输出文件夹名。
+
+常用示例：
+
+1. 基本使用（默认输出到 output，先优化并覆盖原 JSON）：
+node process-ordersV4.js tianju_orders_1774711163123.json
+
+2. 指定输出文件夹：
+node process-ordersV4.js tianju_orders_1774711163123.json my-output
+
+3. 保留每个批次的 order.json：
+node process-ordersV4.js tianju_orders_1774711163123.json my-output -JSON=true
+
+4. 指定每批最大 UPC 数：
+node process-ordersV4.js tianju_orders_1774711163123.json my-output --box-size=15
+
+5. 跳过优化（此时不会覆盖原 JSON）：
+node process-ordersV4.js tianju_orders_1774711163123.json my-output --skip-optimize
+
+6. 跳过优化，且不指定输出目录（仍默认输出到 output，不会生成 `--skip-optimize` 文件夹）：
+node process-ordersV4.js tianju_orders_1774711163123.json --skip-optimize
+
+==================================================
+单独执行优化：optimize-pick-batches.js
+==================================================
+
+命令格式：
+node optimize-pick-batches.js <输入JSON> [输出JSON] [--box-size=15]
+
+说明：
+1. 这个脚本只负责优化批次与拣货顺序，不生成 PDF。
+2. `single` 会按订单数量从大到小排序，例如 `Shiliu-lv*4` 会排在 `Shiliu-lv*1` 前面。
+3. 优化目标是尽量让同一批次集中在相同 `zoneName`，并优先靠近同一 `shelfName`。
+4. 默认输出为 `原文件名.optimized.json`。
+
+示例：
+node optimize-pick-batches.js tianju_orders_1774711163123.json
+node optimize-pick-batches.js tianju_orders_1774711163123.json optimized.json
+node optimize-pick-batches.js tianju_orders_1774711163123.json optimized.json --box-size=15
+
+==================================================
+旧版脚本说明
+==================================================
+
+- `process-ordersV2.js`：旧版 JSON 结构使用。
+- `process-ordersV3.js`：中间过渡版本。
+- 当前日常使用请优先选择 `process-ordersV4.js`。

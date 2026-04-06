@@ -1,0 +1,4 @@
+electron/*
+history*/
+node_modules/
+test/
