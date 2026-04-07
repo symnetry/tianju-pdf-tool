@@ -1,0 +1,4189 @@
+{
+  "single": [
+    {
+      "upcUniqueList": [
+        "WST330-025"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040999477465645056",
+            "expressTrackingNo": "9200190385106203142725",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/0122c873066ecc5f47aa9b952b28e3048bbb.pdf",
+            "upcDescList": [
+              "WST330-025*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040999477465645056"
+      ],
+      "pickNo": "OPT-SIN-001",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128265",
+              "shelfName": "AA001",
+              "upc": "WST330-025",
+              "sku": "右手骷髅",
+              "orderNo": "2040999477465645056",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-937",
+        "WSTG345-U11",
+        "WSTG345-U07",
+        "WSTG345-U03"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338612882046976",
+            "expressTrackingNo": "9334610990150171159037",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717c190d513ddc64c51b30d4527b32a1a68.pdf",
+            "upcDescList": [
+              "WST218-937*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "GOFO",
+            "orderNo": "105467497717",
+            "expressTrackingNo": "GFUS01044365223936",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/05255624001647204b9a852620e440878641.pdf",
+            "upcDescList": [
+              "WSTG345-U11*2"
+            ]
+          },
+          {
+            "companyName": "GOFO",
+            "orderNo": "105366115772",
+            "expressTrackingNo": "GFUS01044157588225",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/011535169585220148c2822f1ffe4358370b.pdf",
+            "upcDescList": [
+              "WSTG345-U11*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "105366744563",
+            "expressTrackingNo": "9200190385106203185784",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0125c509920b086b404ca95722692e852507.pdf",
+            "upcDescList": [
+              "WSTG345-U11*1"
+            ]
+          },
+          {
+            "companyName": "GOFO",
+            "orderNo": "105373557014",
+            "expressTrackingNo": "GFUS01044172834816",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0319d633c7ff7695456f9ec5760a99bf20ca.pdf",
+            "upcDescList": [
+              "WSTG345-U11*1"
+            ]
+          },
+          {
+            "companyName": "GOFO",
+            "orderNo": "105391355624",
+            "expressTrackingNo": "GFUS01044209287616",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/08160d38ed5e6c824b36b934367e0ce0ddb7.pdf",
+            "upcDescList": [
+              "WSTG345-U11*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "105391291702",
+            "expressTrackingNo": "9200190385106203141476",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/081553e093441aab48ebb1757d3ba10b0406.pdf",
+            "upcDescList": [
+              "WSTG345-U07*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "GOFO",
+            "orderNo": "105370467773",
+            "expressTrackingNo": "GFUS01044166503168",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0228fc1feb85c2164cf0b0fde555996e20e4.pdf",
+            "upcDescList": [
+              "WSTG345-U03*5"
+            ]
+          },
+          {
+            "companyName": "GOFO",
+            "orderNo": "105366010653",
+            "expressTrackingNo": "GFUS01044157383041",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/011371422fd8d5ab4b128ee3da15e76b76d5.pdf",
+            "upcDescList": [
+              "WSTG345-U03*1"
+            ]
+          },
+          {
+            "companyName": "GOFO",
+            "orderNo": "105368890399",
+            "expressTrackingNo": "GFUS01044163276032",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0201d591effe27214821835a500697feec40.pdf",
+            "upcDescList": [
+              "WSTG345-U03*1"
+            ]
+          },
+          {
+            "companyName": "GOFO",
+            "orderNo": "105370367045",
+            "expressTrackingNo": "GFUS01044166300096",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0226e5957e57bc8b4260bb188c13016e05a4.pdf",
+            "upcDescList": [
+              "WSTG345-U03*1"
+            ]
+          },
+          {
+            "companyName": "GOFO",
+            "orderNo": "105391182687",
+            "expressTrackingNo": "GFUS01044208925250",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/08138f7b61f561324b4f9c4c077e3ecba15d.pdf",
+            "upcDescList": [
+              "WSTG345-U03*1"
+            ]
+          },
+          {
+            "companyName": "GOFO",
+            "orderNo": "105468223851",
+            "expressTrackingNo": "GFUS01044366706499",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/0537c00281d6bc864e9aa3774fe87264618d.pdf",
+            "upcDescList": [
+              "WSTG345-U03*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040338612882046976",
+        "105467497717",
+        "105366115772",
+        "105366744563",
+        "105373557014",
+        "105391355624",
+        "105391291702",
+        "105370467773",
+        "105366010653",
+        "105368890399",
+        "105370367045",
+        "105391182687",
+        "105468223851"
+      ],
+      "pickNo": "OPT-SIN-002",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128236",
+              "shelfName": "BB002",
+              "upc": "WST218-937",
+              "sku": "88703310N1",
+              "orderNo": "2040338612882046976",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128244",
+              "shelfName": "BB010",
+              "upc": "WSTG345-U03",
+              "sku": "Baccarat Rouge  540 70 ML，有袋子",
+              "orderNo": "105368890399",
+              "num": 9
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128244",
+              "shelfName": "BB010",
+              "upc": "WSTG345-U07",
+              "sku": "Jean Pual Gaultier Le Male Elixir",
+              "orderNo": "105391291702",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128244",
+              "shelfName": "BB010",
+              "upc": "WSTG345-U11",
+              "sku": "Louis Vuitton Imagination，有袋子",
+              "orderNo": "105366115772",
+              "num": 6
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127948",
+              "shelfName": "PP014",
+              "upc": "WSTG345-U03",
+              "sku": "Baccarat Rouge  540 70 ML，有袋子",
+              "orderNo": "105366010653",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-1472"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043296349388800",
+            "expressTrackingNo": "GFUS01044344972610",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/0240d41becd5adf143f5bb0a137e7c66c634.pdf",
+            "upcDescList": [
+              "WST218-1472*2"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338510784299008",
+            "expressTrackingNo": "9334610990150171162747",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717566de2ade3ac4791914e75029d274e79.pdf",
+            "upcDescList": [
+              "WST218-1472*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003317443231744",
+            "expressTrackingNo": "9434630109355132404130",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1127340809b4044b4e268897be69329aa174.pdf",
+            "upcDescList": [
+              "WST218-1472*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003340407046144",
+            "expressTrackingNo": "9434630109355132405168",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11141cef0a9c921d43c0b6c2212988705baa.pdf",
+            "upcDescList": [
+              "WST218-1472*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003365606424576",
+            "expressTrackingNo": "9434630109355132403133",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1115e65d838d77824ff4a1a15f36666b1a5d.pdf",
+            "upcDescList": [
+              "WST218-1472*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041043293992189952",
+            "expressTrackingNo": "9434630109355132403638",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1106575c99cc6ebb4260b5cc661509409006.pdf",
+            "upcDescList": [
+              "WST218-1472*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2041043296349388800",
+        "2040338510784299008",
+        "2041003317443231744",
+        "2041003340407046144",
+        "2041003365606424576",
+        "2041043293992189952"
+      ],
+      "pickNo": "OPT-SIN-003",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128230",
+              "shelfName": "CC026",
+              "upc": "WST218-1472",
+              "sku": "88718043N1",
+              "orderNo": "2040338510784299008",
+              "num": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-717"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338527985139712",
+            "expressTrackingNo": "9334610990150171161207",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717283a322d56964b5a938fe2c2456f4f04.pdf",
+            "upcDescList": [
+              "WST218-717*3"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040338527985139712"
+      ],
+      "pickNo": "OPT-SIN-004",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128189",
+              "shelfName": "DD015",
+              "upc": "WST218-717",
+              "sku": "88312224",
+              "orderNo": "2040338527985139712",
+              "num": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-1064",
+        "JWJ-HBL-001",
+        "WSTG345-U01",
+        "WST218-1077"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040039419286192128",
+            "expressTrackingNo": "9334610990150171159358",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0725a6b36c5848c644e6a9588c022767adba.pdf",
+            "upcDescList": [
+              "WST218-1064*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040261811329142784",
+            "expressTrackingNo": "9334610990150171157538",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/075979225a7d8c5f4439a34f8a85b7bfbec8.pdf",
+            "upcDescList": [
+              "JWJ-HBL-001*2"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "GOFO",
+            "orderNo": "105467999153",
+            "expressTrackingNo": "GFUS01044366247936",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/0533c9e2827d214b4d66b0c341ba04f656ff.pdf",
+            "upcDescList": [
+              "WSTG345-U01*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003389983232000",
+            "expressTrackingNo": "9434630109355132402747",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/111517e604bd9fb04058ac8b046e030408f2.pdf",
+            "upcDescList": [
+              "WST218-1077*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040039419286192128",
+        "2040261811329142784",
+        "105467999153",
+        "2041003389983232000"
+      ],
+      "pickNo": "OPT-SIN-005",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128162",
+              "shelfName": "EE018",
+              "upc": "WST218-1064",
+              "sku": "88308645",
+              "orderNo": "2040039419286192128",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128169",
+              "shelfName": "EE025",
+              "upc": "JWJ-HBL-001",
+              "sku": "20258-JWJPD-1PC",
+              "orderNo": "2040261811329142784",
+              "num": 2
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128170",
+              "shelfName": "EE026",
+              "upc": "WSTG345-U01",
+              "sku": "Creed Aventus",
+              "orderNo": "105467999153",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128171",
+              "shelfName": "EE027",
+              "upc": "WST218-1077",
+              "sku": "88610110",
+              "orderNo": "2041003389983232000",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-972",
+        "WST218-806",
+        "WST218-360",
+        "WST218-904",
+        "WST218-184",
+        "WST218-1133"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043320256921600",
+            "expressTrackingNo": "GFUS01044367471361",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/05434ffd869a574647548b9fbfb98d43cf8c.pdf",
+            "upcDescList": [
+              "WST218-972*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338537023864832",
+            "expressTrackingNo": "9334610990150171159518",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717743fbaa625ef4295847f8bc7b9c4e92b.pdf",
+            "upcDescList": [
+              "WST218-806*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003292205617152",
+            "expressTrackingNo": "9434630109355132404345",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/112804e8303165544a62b024ceb1b5aa0998.pdf",
+            "upcDescList": [
+              "WST218-806*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003321595105280",
+            "expressTrackingNo": "9434630109355132402044",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1114e688d1b159ac449885943b033448aec7.pdf",
+            "upcDescList": [
+              "WST218-806*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003358459330560",
+            "expressTrackingNo": "9434630109355132402877",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1114661f206ea2c64b28bf7932539552f8f0.pdf",
+            "upcDescList": [
+              "WST218-806*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041043291232337920",
+            "expressTrackingNo": "9434630109355132402433",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11060e28c724b4624d5698f7991c5acf7897.pdf",
+            "upcDescList": [
+              "WST218-360*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338591050694656",
+            "expressTrackingNo": "9334610990150171162815",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717f53112e874504ba29be920bd39419e4f.pdf",
+            "upcDescList": [
+              "WST218-904*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003296534626304",
+            "expressTrackingNo": "9434630109355132403928",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1118b9a693c8baa04999b44bc10bdecd5eb0.pdf",
+            "upcDescList": [
+              "WST218-904*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338540173299712",
+            "expressTrackingNo": "9334610990150171161429",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07170548d0f7b7a44881b76e90bc08efc586.pdf",
+            "upcDescList": [
+              "WST218-184*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003251961757696",
+            "expressTrackingNo": "9434630109355132404116",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/112720aea4c380424e0c87a38f172a0e917d.pdf",
+            "upcDescList": [
+              "WST218-184*1"
+            ]
+          },
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043290644647936",
+            "expressTrackingNo": "GFUS01044367471936",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/0543199ad56fbcbe4d529f3b84acd7dc4fcf.pdf",
+            "upcDescList": [
+              "WST218-184*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338607189889024",
+            "expressTrackingNo": "9334610990150171162754",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/071841fcc0dc7a7d4156bf698894cc7c2084.pdf",
+            "upcDescList": [
+              "WST218-1133*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003270727073792",
+            "expressTrackingNo": "9434630109355132402037",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/112776e0e7949f754796bddd304dd16a69a1.pdf",
+            "upcDescList": [
+              "WST218-1133*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003320010145792",
+            "expressTrackingNo": "9434630109355132402273",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/112394e7fa01d09a4aafb59f557aa28be028.pdf",
+            "upcDescList": [
+              "WST218-1133*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2041043320256921600",
+        "2040338537023864832",
+        "2041003292205617152",
+        "2041003321595105280",
+        "2041003358459330560",
+        "2041043291232337920",
+        "2040338591050694656",
+        "2041003296534626304",
+        "2040338540173299712",
+        "2041003251961757696",
+        "2041043290644647936",
+        "2040338607189889024",
+        "2041003270727073792",
+        "2041003320010145792"
+      ],
+      "pickNo": "OPT-SIN-006",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128121",
+              "shelfName": "FF007",
+              "upc": "WST218-972",
+              "sku": "203056126",
+              "orderNo": "2041043320256921600",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128128",
+              "shelfName": "FF014",
+              "upc": "WST218-806",
+              "sku": "88309311",
+              "orderNo": "2040338537023864832",
+              "num": 4
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128135",
+              "shelfName": "FF021",
+              "upc": "WST218-360",
+              "sku": "2030866N1",
+              "orderNo": "2041043291232337920",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128136",
+              "shelfName": "FF022",
+              "upc": "WST218-904",
+              "sku": "88718019N1",
+              "orderNo": "2040338591050694656",
+              "num": 2
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128137",
+              "shelfName": "FF023",
+              "upc": "WST218-184",
+              "sku": "20606429N1",
+              "orderNo": "2040338540173299712",
+              "num": 3
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128138",
+              "shelfName": "FF024",
+              "upc": "WST218-1133",
+              "sku": "88502013N3",
+              "orderNo": "2040338607189889024",
+              "num": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-987",
+        "88312242"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003254226194432",
+            "expressTrackingNo": "9434630109355132403607",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1040f5057a5e536b43d1839ab68933affd5e.pdf",
+            "upcDescList": [
+              "WST218-987*5"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003257544376320",
+            "expressTrackingNo": "9434630109355132404055",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1126b99aae3e75304d61b6c347c6856d28e4.pdf",
+            "upcDescList": [
+              "WST218-987*3"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003383876325376",
+            "expressTrackingNo": "9434630109355132403096",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11158205fc8e4a71484a98df1d3296866405.pdf",
+            "upcDescList": [
+              "88312242*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2041003254226194432",
+        "2041003257544376320",
+        "2041003383876325376"
+      ],
+      "pickNo": "OPT-SIN-007",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128111",
+              "shelfName": "GG027",
+              "upc": "88312242",
+              "sku": "88312242",
+              "orderNo": "2041003383876325376",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128111",
+              "shelfName": "GG027",
+              "upc": "WST218-987",
+              "sku": "88502013N1",
+              "orderNo": "2041003254226194432",
+              "num": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-1016",
+        "WST330-016",
+        "WST218-1271",
+        "WST218-1140"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043312299839488",
+            "expressTrackingNo": "GFUS01044344986053",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/02407f30677f7c5f4b4ab11d6184b58a7102.pdf",
+            "upcDescList": [
+              "WST218-1016*3"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041070822857703424",
+            "expressTrackingNo": "9434630109355132403614",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/10495129022b1ea3476aa47ac2f87f29dbf1.pdf",
+            "upcDescList": [
+              "WST218-1016*2"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338627612442624",
+            "expressTrackingNo": "9334610990150171159815",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717ee46b6a926d1468685b32840423977fd.pdf",
+            "upcDescList": [
+              "WST218-1016*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040999472130002944",
+            "expressTrackingNo": "9200190385106203195776",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/01227e7edad624a74149bc817c882a16d751.pdf",
+            "upcDescList": [
+              "WST330-016*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040999473988567040",
+            "expressTrackingNo": "9200190385106203195769",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/01220a88cbb3a269431dbe63ff160d3729f2.pdf",
+            "upcDescList": [
+              "WST330-016*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040999475762270208",
+            "expressTrackingNo": "9200190385106203195783",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/0123a615a7ba142d413594d8d9a4a819e4d7.pdf",
+            "upcDescList": [
+              "WST330-016*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043314929668096",
+            "expressTrackingNo": "GFUS01044344982785",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/02400d85ce6b096b4470aa0bc63a33ce54ed.pdf",
+            "upcDescList": [
+              "WST218-1271*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041070838619410432",
+            "expressTrackingNo": "9434630109355132402488",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/10504490a0817bf544c2868475b2213956e0.pdf",
+            "upcDescList": [
+              "WST218-1140*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2041043312299839488",
+        "2041070822857703424",
+        "2040338627612442624",
+        "2040999472130002944",
+        "2040999473988567040",
+        "2040999475762270208",
+        "2041043314929668096",
+        "2041070838619410432"
+      ],
+      "pickNo": "OPT-SIN-008",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128064",
+              "shelfName": "HH010",
+              "upc": "WST218-1016",
+              "sku": "88105211",
+              "orderNo": "2040338627612442624",
+              "num": 6
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128068",
+              "shelfName": "HH014",
+              "upc": "WST330-016",
+              "sku": "塘草右手",
+              "orderNo": "2040999472130002944",
+              "num": 3
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128077",
+              "shelfName": "HH023",
+              "upc": "WST218-1271",
+              "sku": "88305142",
+              "orderNo": "2041043314929668096",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128079",
+              "shelfName": "HH025",
+              "upc": "WST218-1140",
+              "sku": "88403027",
+              "orderNo": "2041070838619410432",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-1285",
+        "WST218-460"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043304364216320",
+            "expressTrackingNo": "GFUS01044344978752",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/0240056b10c89c0c495ebdd63e4793f0417f.pdf",
+            "upcDescList": [
+              "WST218-1285*2"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338601284796416",
+            "expressTrackingNo": "9334610990150171162723",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0718e5dc23b5e92d46dca8ce9862e77638ed.pdf",
+            "upcDescList": [
+              "WST218-460*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003267555692544",
+            "expressTrackingNo": "9434630109355132403461",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1115a002f55a0a7749ada7791eef95aec929.pdf",
+            "upcDescList": [
+              "WST218-460*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2041043304364216320",
+        "2040338601284796416",
+        "2041003267555692544"
+      ],
+      "pickNo": "OPT-SIN-009",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128013",
+              "shelfName": "KK019",
+              "upc": "WST218-1285",
+              "sku": "88312246N1",
+              "orderNo": "2041043304364216320",
+              "num": 2
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128016",
+              "shelfName": "KK022",
+              "upc": "WST218-460",
+              "sku": "88303331",
+              "orderNo": "2040338601284796416",
+              "num": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-1237"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003386954944512",
+            "expressTrackingNo": "9434630109355132404512",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/111628dbf1ca76e14bc88cef33e04e5ce8f7.pdf",
+            "upcDescList": [
+              "WST218-1237*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2041003386954944512"
+      ],
+      "pickNo": "OPT-SIN-010",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127965",
+              "shelfName": "LL001",
+              "upc": "WST218-1237",
+              "sku": "88502027N2",
+              "orderNo": "2041003386954944512",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "LHJMXL-QL-001",
+        "WST218-902",
+        "WST218-1419",
+        "WST218-1262",
+        "WST218-1164",
+        "WST218-075"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260500911620096",
+            "expressTrackingNo": "9334610990150171159532",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07082ff7bd7afe394003b807633a86ce9b6e.pdf",
+            "upcDescList": [
+              "LHJMXL-QL-001*7"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260444150104064",
+            "expressTrackingNo": "9334610990150171157521",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07083f257429277b464582d948a8af0cf224.pdf",
+            "upcDescList": [
+              "LHJMXL-QL-001*6"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260383982813184",
+            "expressTrackingNo": "9334610990150171159556",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0708de4ccd658fb94666a349c21f118d3b04.pdf",
+            "upcDescList": [
+              "LHJMXL-QL-001*4"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003388636860416",
+            "expressTrackingNo": "9434630109355132403775",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11274239e1642b004d29ac17dad0f99c45aa.pdf",
+            "upcDescList": [
+              "WST218-902*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041043288099192832",
+            "expressTrackingNo": "9434630109355132404772",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1106cdd8ed45e0db49959a546ae9cbaa0525.pdf",
+            "upcDescList": [
+              "WST218-902*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041070832168570880",
+            "expressTrackingNo": "9434630109355132404024",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/10491c41c4560daa4fe794b68045cd48fc83.pdf",
+            "upcDescList": [
+              "WST218-1419*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338501292589056",
+            "expressTrackingNo": "9334610990150171160385",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/071775c9e17fcf95408787e2cce6de1066c9.pdf",
+            "upcDescList": [
+              "WST218-1262*2"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040039416345985024",
+            "expressTrackingNo": "9334610990150171159396",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0737a4a04bc06742426b9094cb7296216f53.pdf",
+            "upcDescList": [
+              "WST218-1262*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338604308889600",
+            "expressTrackingNo": "9334610990150171157583",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/071726a731dfd02d4b4fa583fb320cf71496.pdf",
+            "upcDescList": [
+              "WST218-1262*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003255711465472",
+            "expressTrackingNo": "9434630109355132404536",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1114a3968392221c4dac88347a3e7c0e4a78.pdf",
+            "upcDescList": [
+              "WST218-1262*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003381288439808",
+            "expressTrackingNo": "9434630109355132402723",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1128f19a56d7e1054c649e8861a17ddfb706.pdf",
+            "upcDescList": [
+              "WST218-1164*3"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338610159456256",
+            "expressTrackingNo": "9334610990150171157446",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717d61990f8661a42df9426285b28a0205d.pdf",
+            "upcDescList": [
+              "WST218-075*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003367225425920",
+            "expressTrackingNo": "9434630109355132404161",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11154c454fe76a454312a4c1bc56208d8c84.pdf",
+            "upcDescList": [
+              "WST218-075*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040260500911620096",
+        "2040260444150104064",
+        "2040260383982813184",
+        "2041003388636860416",
+        "2041043288099192832",
+        "2041070832168570880",
+        "2040338501292589056",
+        "2040039416345985024",
+        "2040338604308889600",
+        "2041003255711465472",
+        "2041003381288439808",
+        "2040338610159456256",
+        "2041003367225425920"
+      ],
+      "pickNo": "OPT-SIN-011",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S129729",
+              "shelfName": "MM022",
+              "upc": "LHJMXL-QL-001",
+              "sku": "15020-SSSXL-Seafoam Aqua",
+              "orderNo": "2040260383982813184",
+              "num": 17
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S129733",
+              "shelfName": "MM026",
+              "upc": "WST218-902",
+              "sku": "88701516",
+              "orderNo": "2041003388636860416",
+              "num": 2
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S129737",
+              "shelfName": "MM030",
+              "upc": "WST218-1419",
+              "sku": "88311126N1",
+              "orderNo": "2041070832168570880",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S129759",
+              "shelfName": "MM052",
+              "upc": "WST218-1262",
+              "sku": "88305152N1",
+              "orderNo": "2040039416345985024",
+              "num": 5
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S129859",
+              "shelfName": "MM082",
+              "upc": "WST218-1164",
+              "sku": "88305217",
+              "orderNo": "2041003381288439808",
+              "num": 3
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S129874",
+              "shelfName": "MM097",
+              "upc": "WST218-075",
+              "sku": "2031303443",
+              "orderNo": "2040338610159456256",
+              "num": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-1202",
+        "WST218-947",
+        "8830402",
+        "WST218-957",
+        "WST218-384",
+        "WST218-664",
+        "WST218-905",
+        "WST218-858",
+        "WST218-734",
+        "WST218-570",
+        "WST218-429"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003364301996032",
+            "expressTrackingNo": "9434630109355132402891",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/111496f8506f45d64e4398fc5ac58b3b5a8e.pdf",
+            "upcDescList": [
+              "WST218-1202*4"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041043285058322432",
+            "expressTrackingNo": "9434630109355132405281",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1105b1701337176d4ff193525843998521e0.pdf",
+            "upcDescList": [
+              "WST218-947*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043299012284416",
+            "expressTrackingNo": "GFUS01044367473025",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/0543da9d143d22924ca59af50237fce34c4b.pdf",
+            "upcDescList": [
+              "8830402*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003376675192832",
+            "expressTrackingNo": "9434630109355132404383",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/112664d6a4cc72b749c788d68e047a6580de.pdf",
+            "upcDescList": [
+              "WST218-957*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041070829031718912",
+            "expressTrackingNo": "9434630109355132405045",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/10506f1565f42c8c4d2d9ab4c635e8a3bd77.pdf",
+            "upcDescList": [
+              "WST218-384*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338636001050624",
+            "expressTrackingNo": "9334610990150171159440",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717f0a6ed1ab8f04878bb6b17959888ad75.pdf",
+            "upcDescList": [
+              "WST218-664*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338633312501760",
+            "expressTrackingNo": "9334610990150171157477",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717ec18ff75ee4f4336a90f9d787084e80b.pdf",
+            "upcDescList": [
+              "WST218-905*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003322840813568",
+            "expressTrackingNo": "9434630109355132403447",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1115f03b5e41d32c4005931e052f5e369295.pdf",
+            "upcDescList": [
+              "WST218-905*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338562122579968",
+            "expressTrackingNo": "9334610990150171157484",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717a105f3823c9447c59fae93d6a81ff463.pdf",
+            "upcDescList": [
+              "WST218-858*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003379342282752",
+            "expressTrackingNo": "9434630109355132404529",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11231746527191af4ffd8e1bcca45506802a.pdf",
+            "upcDescList": [
+              "WST218-734*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003353190797312",
+            "expressTrackingNo": "9434630109355132403676",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11146f0d4bc8d2b2428c8ab908736058334a.pdf",
+            "upcDescList": [
+              "WST218-570*2"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003355782877184",
+            "expressTrackingNo": "9434630109355132405373",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1128213c77e0e5ab4394bc1b0ef25178acab.pdf",
+            "upcDescList": [
+              "WST218-570*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003378465673216",
+            "expressTrackingNo": "9434630109355132404000",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/112161f49db23191490ead3e97e73c868a9a.pdf",
+            "upcDescList": [
+              "WST218-570*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040039422738104320",
+            "expressTrackingNo": "9334610990150171163966",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0738dcc76656b83148f9bcdbf4a23d1d95cd.pdf",
+            "upcDescList": [
+              "WST218-429*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2041003364301996032",
+        "2041043285058322432",
+        "2041043299012284416",
+        "2041003376675192832",
+        "2041070829031718912",
+        "2040338636001050624",
+        "2040338633312501760",
+        "2041003322840813568",
+        "2040338562122579968",
+        "2041003379342282752",
+        "2041003353190797312",
+        "2041003355782877184",
+        "2041003378465673216",
+        "2040039422738104320"
+      ],
+      "pickNo": "OPT-SIN-012",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127935",
+              "shelfName": "PP001",
+              "upc": "WST218-1202",
+              "sku": "88308679",
+              "orderNo": "2041003364301996032",
+              "num": 4
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127935",
+              "shelfName": "PP001",
+              "upc": "WST218-947",
+              "sku": "88305220",
+              "orderNo": "2041043285058322432",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127938",
+              "shelfName": "PP004",
+              "upc": "8830402",
+              "sku": "8830402",
+              "orderNo": "2041043299012284416",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127938",
+              "shelfName": "PP004",
+              "upc": "WST218-957",
+              "sku": "88312233N1",
+              "orderNo": "2041003376675192832",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127939",
+              "shelfName": "PP005",
+              "upc": "WST218-384",
+              "sku": "8831305",
+              "orderNo": "2041070829031718912",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127941",
+              "shelfName": "PP007",
+              "upc": "WST218-664",
+              "sku": "88303349",
+              "orderNo": "2040338636001050624",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127943",
+              "shelfName": "PP009",
+              "upc": "WST218-905",
+              "sku": "88305218",
+              "orderNo": "2040338633312501760",
+              "num": 2
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127948",
+              "shelfName": "PP014",
+              "upc": "WST218-858",
+              "sku": "8819015+2",
+              "orderNo": "2040338562122579968",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127952",
+              "shelfName": "PP018",
+              "upc": "WST218-734",
+              "sku": "88190115",
+              "orderNo": "2041003379342282752",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127956",
+              "shelfName": "PP022",
+              "upc": "WST218-570",
+              "sku": "8880105",
+              "orderNo": "2041003353190797312",
+              "num": 4
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127957",
+              "shelfName": "PP023",
+              "upc": "WST218-429",
+              "sku": "201051110N2",
+              "orderNo": "2040039422738104320",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-901",
+        "WST218-494",
+        "WST218-731"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041070825961488384",
+            "expressTrackingNo": "9434630109355132402181",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/104934ea92d5f4894a9b9b85410b22c86f8c.pdf",
+            "upcDescList": [
+              "WST218-901*2"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003374015516672",
+            "expressTrackingNo": "9434630109355132403843",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1127aa35dd6153024c048d2203ff11ae7dab.pdf",
+            "upcDescList": [
+              "WST218-494*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041070841802887168",
+            "expressTrackingNo": "9434630109355132404277",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/105013356a63b460482eb3273402adddcc70.pdf",
+            "upcDescList": [
+              "WST218-494*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041043804719517696",
+            "expressTrackingNo": "9200190385106203197862",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/02427a930f73b8d6458b89f7e1921ac43c82.pdf",
+            "upcDescList": [
+              "WST218-731*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2041070825961488384",
+        "2041003374015516672",
+        "2041070841802887168",
+        "2041043804719517696"
+      ],
+      "pickNo": "OPT-SIN-013",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127905",
+              "shelfName": "QQ001",
+              "upc": "WST218-901",
+              "sku": "88313029",
+              "orderNo": "2041070825961488384",
+              "num": 2
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127913",
+              "shelfName": "QQ009",
+              "upc": "WST218-494",
+              "sku": "8850201",
+              "orderNo": "2041003374015516672",
+              "num": 2
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S127925",
+              "shelfName": "QQ021",
+              "upc": "WST218-731",
+              "sku": "8830334",
+              "orderNo": "2041043804719517696",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-422",
+        "WST218-326"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040007008611532800",
+            "expressTrackingNo": "9334610990150171161221",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07169f310875c0e54bf695c48085cc1b0eef.pdf",
+            "upcDescList": [
+              "WST218-422*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041070835360436224",
+            "expressTrackingNo": "9434630109355132404710",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/105017c2f0ae0cd84ea0b54945c6261d37e2.pdf",
+            "upcDescList": [
+              "WST218-326*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040007008611532800",
+        "2041070835360436224"
+      ],
+      "pickNo": "OPT-SIN-014",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128497",
+              "shelfName": "RR019",
+              "upc": "WST218-422",
+              "sku": "203071150N1",
+              "orderNo": "2040007008611532800",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128505",
+              "shelfName": "RR027",
+              "upc": "WST218-326",
+              "sku": "20502002N1",
+              "orderNo": "2041070835360436224",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-744",
+        "WST218-1129"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003347591888896",
+            "expressTrackingNo": "9434630109355132405076",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1041b376c4dad76443cb983bba2cb44e1d32.pdf",
+            "upcDescList": [
+              "WST218-744*4"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003346258100224",
+            "expressTrackingNo": "9434630109355132402174",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1116a8f91e9fa56f43ba9e1e6c778eaa4510.pdf",
+            "upcDescList": [
+              "WST218-744*3"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003282218979328",
+            "expressTrackingNo": "9434630109355132403973",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1115928825b82eda408e84f1cd789eb00f53.pdf",
+            "upcDescList": [
+              "WST218-744*2"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003306844225536",
+            "expressTrackingNo": "9434630109355132403492",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1127bdbe818d8cb84879b4bff8a9c3448b27.pdf",
+            "upcDescList": [
+              "WST218-744*2"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338498490793984",
+            "expressTrackingNo": "9334610990150171160200",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07175d8addcc4efd4c78bb3104c6f666d103.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338499874914304",
+            "expressTrackingNo": "9334610990150171159860",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07179fd70b26113b41caa2a69c547b97a230.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338502743818240",
+            "expressTrackingNo": "9334610990150171160224",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717db638f807ca0449ba4c0b225c59f707e.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338504119549952",
+            "expressTrackingNo": "9334610990150171161405",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717e591ce21230b4a7b9691fddfc6cc63d4.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338505470115840",
+            "expressTrackingNo": "9334610990150171162778",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717281c2eebabaf4b459dcf9f07753af9d8.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338508066390016",
+            "expressTrackingNo": "9334610990150171162730",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/071710240dded6ba49dca267f38b5e64f8e8.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338513426223104",
+            "expressTrackingNo": "9334610990150171162785",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07171e5bc1a30af342638ce082ce1f354d53.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338516282544128",
+            "expressTrackingNo": "9334610990150171159471",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/071735ebd43007d04bf797fba8207ac929ea.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338519181295616",
+            "expressTrackingNo": "9334610990150171157590",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0716cb999b68f2f640d48bcbc4622142e1d8.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338522167640064",
+            "expressTrackingNo": "9334610990150171159457",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717165f2c68e4994f2eb31fc2ab12b6396f.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338525098971136",
+            "expressTrackingNo": "9334610990150171162761",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07170af9f3272103415a8f636bafae3457fb.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338533957341184",
+            "expressTrackingNo": "9334610990150171160378",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717b0e851f4ab7e40cd91dc92aea4ba808e.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338543029620736",
+            "expressTrackingNo": "9334610990150171159464",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717130f91f0d1764ba88cd32b810f0256be.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338545856581632",
+            "expressTrackingNo": "9334610990150171159495",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717662c140809164d33b5cb7370b655cbad.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338550491287552",
+            "expressTrackingNo": "9334610990150171157514",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07176b471c7c26ca414eb827e752b4353f75.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338553360678912",
+            "expressTrackingNo": "9334610990150171157460",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07178caec0920f384a0498d36ed94cfd057c.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338556493824000",
+            "expressTrackingNo": "9334610990150171159839",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07176260871603f44f0ea373f46cc097a822.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338559312396288",
+            "expressTrackingNo": "9334610990150171159846",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07173d6a9cb447864e3aad49f90a9e673916.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338564940664832",
+            "expressTrackingNo": "9334610990150171159310",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/071723cceea16be5413f83171bc4b3599b40.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338568061227008",
+            "expressTrackingNo": "9334610990150171161436",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717db6009b3ca824ac8a4e235cbe38a81c1.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338571073224704",
+            "expressTrackingNo": "9334610990150171160217",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07173bbf9c0ad0f54f30b7c7370d1ac90c6b.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338574080053248",
+            "expressTrackingNo": "9334610990150171160170",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/071793fb0d91132348afaf93a351a680046b.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338576882335744",
+            "expressTrackingNo": "9334610990150171154506",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717b0354abdfacc4df8968dfa612b0590ed.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338579763822592",
+            "expressTrackingNo": "9334610990150171159488",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/071798643a5007a14a6a857b28e5e8d6350a.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338582615949312",
+            "expressTrackingNo": "9334610990150171159853",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07181502547890144bf2b335567cf5b995af.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338585413550080",
+            "expressTrackingNo": "9334610990150171159013",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717a7169b1218b64ff8860035344abb4143.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338588156137472",
+            "expressTrackingNo": "9334610990150171159501",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0718d1ee8f2092ef48cbb74d081e7be55dd6.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338594024456192",
+            "expressTrackingNo": "9334610990150171160187",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717673bbc571dc341d99d366d1993414a73.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338598122291200",
+            "expressTrackingNo": "9334610990150171159822",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717b67349d999b84d53afd3065f12996938.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338618741489664",
+            "expressTrackingNo": "9334610990150171159877",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07178662bed0d82d48788c40bd81edd92cb1.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338621593616384",
+            "expressTrackingNo": "9334610990150171159020",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/071825f2894e6a0a489dbcf0cbe8d2eddd6d.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338630359224320",
+            "expressTrackingNo": "9334610990150171157453",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07171a66a306b48a485896d2ce9af324663c.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003244717707264",
+            "expressTrackingNo": "9434630109355132403140",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11262dfdff85881744f990b37ef52ee70ba8.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003245644648448",
+            "expressTrackingNo": "9434630109355132404093",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11254e171001b5f3442aa064fce8acd293f6.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003245833392128",
+            "expressTrackingNo": "9434630109355132403683",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11289f708b5af3764053beba838b77c61aa7.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003247650013184",
+            "expressTrackingNo": "9434630109355132404352",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1124fbf6b7a0c60b489abeeac76a85930213.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003248870068224",
+            "expressTrackingNo": "9434630109355132403058",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1123886812926009473eb8ab029520329d7d.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003249742483456",
+            "expressTrackingNo": "9434630109355132404956",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11284e8e3559803e4ec69a4fc7de979a80dd.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003251038523392",
+            "expressTrackingNo": "9434630109355132402655",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11274b47a5c283ca4d49b797fe34a20de6ae.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003254759358464",
+            "expressTrackingNo": "9434630109355132404949",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/111516e0f08369ad43bc9f3d7497f40731b7.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003257535500288",
+            "expressTrackingNo": "9434630109355132402839",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1121dcf6ef406d964da58292ff4e4fc2df49.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003259049644032",
+            "expressTrackingNo": "9434630109355132402778",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1115eb6809a7ea2342fc91bf8ff67e7db7f1.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003260618313728",
+            "expressTrackingNo": "9434630109355132402525",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1115e0afa962c54b44f7bd1bc20cfecff0ee.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003260753018880",
+            "expressTrackingNo": "9434630109355132403751",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11226aab9407dcee4bdeacfa261669e26401.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003263332028416",
+            "expressTrackingNo": "9434630109355132404543",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11246b945ca03c1c4b59b60599e19814b052.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003264477560832",
+            "expressTrackingNo": "9434630109355132402129",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1127d2e640679f8a4d079ef5142d6cb20db2.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003265081053184",
+            "expressTrackingNo": "9434630109355132402846",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/111544dd9e2f11434686ad702104544bd9e0.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003266268528640",
+            "expressTrackingNo": "9434630109355132403515",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1128b57ef49e94554c29991f11b7a3345f94.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003270446055424",
+            "expressTrackingNo": "9434630109355132404628",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1127d248e9a2e6284664918c7766c0f57b42.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003271452688384",
+            "expressTrackingNo": "9434630109355132404284",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1125311a7b6ab2e54f058b55f2c996a738bc.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003273302376448",
+            "expressTrackingNo": "9434630109355132402013",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11250f32672e04fe47d1b68576c69ed9f7f1.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003274061058048",
+            "expressTrackingNo": "9434630109355132402570",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1114570a8ab770bb48119038814f5daf665d.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003276149821440",
+            "expressTrackingNo": "9434630109355132404253",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/111500576b3d18094cc486bc68891d7a6da8.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003276967710720",
+            "expressTrackingNo": "9434630109355132402594",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11284646fb07a0014effb047c9012d7ed106.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003277299548160",
+            "expressTrackingNo": "9434630109355132404222",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1128b33ce6f01c264bd28d02ca63fa04a413.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003279090515968",
+            "expressTrackingNo": "9434630109355132404291",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1128658998a9b9fe4d34a4b7f0a237e97790.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003280218783744",
+            "expressTrackingNo": "9434630109355132402396",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/111497fa932b48b94c309ae84d00c122a761.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003281199763456",
+            "expressTrackingNo": "9434630109355132404963",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1124bc19df0ce00946b8bb481ef3cbb1c26d.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003283062521856",
+            "expressTrackingNo": "9434630109355132404826",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1118a9a196f9c99749ea82dfd9ebfa5232fa.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003284325007360",
+            "expressTrackingNo": "9434630109355132404390",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1114a9244dd95331436ab16379a6482b9cbd.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003287176646656",
+            "expressTrackingNo": "9434630109355132403232",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/111536850482f1554e3695185c345db0dc61.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003289395433472",
+            "expressTrackingNo": "9434630109355132405250",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11276f0a89777a4c4a7eb3b145221a589748.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003289844711424",
+            "expressTrackingNo": "9434630109355132403959",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1126b5b47a08abda4ba9a470df0557af4ba2.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003293569253376",
+            "expressTrackingNo": "9434630109355132405465",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1114df471f33f25b4ef890d64262197467bc.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003295129534464",
+            "expressTrackingNo": "9434630109355132405199",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11289690c24f31f8457cb62ced75b147a966.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003297969078272",
+            "expressTrackingNo": "9434630109355132405052",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/111441d3454a5da946c2b07b7cf78a0a25f4.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003299281408000",
+            "expressTrackingNo": "9434630109355132404642",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1113d7b4f4353c2f41a590f62ba49fb75ab3.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003301018337280",
+            "expressTrackingNo": "9434630109355132405069",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1114592df74fd86245599b1e1d3596c8dcfe.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003302053842944",
+            "expressTrackingNo": "9434630109355132403287",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11140f2d189d5b214cc69eab7632a048847e.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003304193425408",
+            "expressTrackingNo": "9434630109355132402112",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11277edfba8ef4894f779c7eb56c72455ec3.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003305267167232",
+            "expressTrackingNo": "9434630109355132402242",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/112595a8401b4a5d47faa1aaa28f84ad54c1.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003308307550208",
+            "expressTrackingNo": "9434630109355132403942",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11286515df81a3f44071bd79f450841f766e.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003312145825792",
+            "expressTrackingNo": "9434630109355132403522",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11251a02cd0736d5472fbbbe4b73234eb290.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003312472981504",
+            "expressTrackingNo": "9434630109355132402266",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/112408806f73d0944620a05d6e4df7ef14a9.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003314972786688",
+            "expressTrackingNo": "9434630109355132404123",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11150f4a2bed8e0b4785885ac0a93a9ccbf9.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003316134121472",
+            "expressTrackingNo": "9434630109355132402938",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11276d41f175baf943a684542e9645cd6dc0.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003318852517888",
+            "expressTrackingNo": "9434630109355132403430",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1114bf25d29dbc76403687c21459c718b258.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003324296724480",
+            "expressTrackingNo": "9434630109355132404901",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1124cc48b68bbda44bb2a8b20e6770fa2121.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003325898461184",
+            "expressTrackingNo": "9434630109355132404048",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1116e083b36db9b941b2a51b3c9bc9b1b2c7.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003328918360064",
+            "expressTrackingNo": "9434630109355132402198",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1115b172117ffdc14fbb8245ee807643b287.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003330549944320",
+            "expressTrackingNo": "9434630109355132403966",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11164c12b61f87d9459c92947ab33c8c2e44.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003331866955776",
+            "expressTrackingNo": "9434630109355132404369",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11264948c126882644dda39b2354421cce12.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003334714888192",
+            "expressTrackingNo": "9434630109355132403652",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/111418aba76f3b2e48a6aff3030d0c618e99.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003336262586368",
+            "expressTrackingNo": "9434630109355132405113",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11156754c5fd422249b3bc55d8248b083be0.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003337684455424",
+            "expressTrackingNo": "9434630109355132404215",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1116242707caafa148feb5d036a2c7c10bcc.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003339136172032",
+            "expressTrackingNo": "9434630109355132404932",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1126f1600349ca004d88823370f6b924b6a6.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003342067990528",
+            "expressTrackingNo": "9434630109355132403065",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1116ac5a71e73c6049eda6b3517b8c99b8c2.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003344827355136",
+            "expressTrackingNo": "9434630109355132403478",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11148d08f3c717094030b2ae7470975c5622.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003348988104704",
+            "expressTrackingNo": "9434630109355132402860",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11150a5201b0f31d44bda2c93fb7216d1669.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003350372225024",
+            "expressTrackingNo": "9434630109355132405205",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/112775d238887b324cb5b9c736795f985d2d.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003351836037120",
+            "expressTrackingNo": "9434630109355132403737",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11160f28364382924ea795c3b2994234a107.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003354667192320",
+            "expressTrackingNo": "9434630109355132402426",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/112832b5c83cdb1f40038a373f22d0d9e33e.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003357192650752",
+            "expressTrackingNo": "9434630109355132404970",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1126825de098f39c4dce8818e7a3a88e85c4.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003360015417344",
+            "expressTrackingNo": "9434630109355132402440",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/111558352600b23f4032830237d7b992154a.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003382227963904",
+            "expressTrackingNo": "9434630109355132402983",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1126c0ec30a4ce384a21849a8fc63df77b1c.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003385705041920",
+            "expressTrackingNo": "9434630109355132402853",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1128e6842b9f86a7487f9107e6b3b39429fa.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041043276853776384",
+            "expressTrackingNo": "9434630109355132405403",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1105e71b6c33d779465ba78c2f136e2d015a.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041043279710097408",
+            "expressTrackingNo": "9434630109355132403355",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/110576a49ea08de7441d8c86817703c44898.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041043282273304576",
+            "expressTrackingNo": "9434630109355132402006",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1106ad972913cfbe4132b2f63985656bb7a0.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041043296886259712",
+            "expressTrackingNo": "9434630109355132404604",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11066cfec4005b194e18976f5c51fcb1ea8b.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043325834858496",
+            "expressTrackingNo": "GFUS01044344988226",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/024008eaa5ecf8944fb9b05f671f8473dd4d.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041070938297044992",
+            "expressTrackingNo": "9434630109355132403768",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/10502142c7215dca48e893d957823fa68be6.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041120127185948672",
+            "expressTrackingNo": "9434630109355132403072",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1104967d8239e63848dd8bcea8f63920b069.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041124497483431936",
+            "expressTrackingNo": "9434630109355132405366",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/112296ee4e9662e34eaea6cec4c600a000cc.pdf",
+            "upcDescList": [
+              "WST218-744*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003372698992640",
+            "expressTrackingNo": "9434630109355132404062",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/112554dfdc58a7e749c0962070f59a01b2ab.pdf",
+            "upcDescList": [
+              "WST218-1129*3"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2041003347591888896",
+        "2041003346258100224",
+        "2041003282218979328",
+        "2041003306844225536",
+        "2040338498490793984",
+        "2040338499874914304",
+        "2040338502743818240",
+        "2040338504119549952",
+        "2040338505470115840",
+        "2040338508066390016",
+        "2040338513426223104",
+        "2040338516282544128",
+        "2040338519181295616",
+        "2040338522167640064",
+        "2040338525098971136",
+        "2040338533957341184",
+        "2040338543029620736",
+        "2040338545856581632",
+        "2040338550491287552",
+        "2040338553360678912",
+        "2040338556493824000",
+        "2040338559312396288",
+        "2040338564940664832",
+        "2040338568061227008",
+        "2040338571073224704",
+        "2040338574080053248",
+        "2040338576882335744",
+        "2040338579763822592",
+        "2040338582615949312",
+        "2040338585413550080",
+        "2040338588156137472",
+        "2040338594024456192",
+        "2040338598122291200",
+        "2040338618741489664",
+        "2040338621593616384",
+        "2040338630359224320",
+        "2041003244717707264",
+        "2041003245644648448",
+        "2041003245833392128",
+        "2041003247650013184",
+        "2041003248870068224",
+        "2041003249742483456",
+        "2041003251038523392",
+        "2041003254759358464",
+        "2041003257535500288",
+        "2041003259049644032",
+        "2041003260618313728",
+        "2041003260753018880",
+        "2041003263332028416",
+        "2041003264477560832",
+        "2041003265081053184",
+        "2041003266268528640",
+        "2041003270446055424",
+        "2041003271452688384",
+        "2041003273302376448",
+        "2041003274061058048",
+        "2041003276149821440",
+        "2041003276967710720",
+        "2041003277299548160",
+        "2041003279090515968",
+        "2041003280218783744",
+        "2041003281199763456",
+        "2041003283062521856",
+        "2041003284325007360",
+        "2041003287176646656",
+        "2041003289395433472",
+        "2041003289844711424",
+        "2041003293569253376",
+        "2041003295129534464",
+        "2041003297969078272",
+        "2041003299281408000",
+        "2041003301018337280",
+        "2041003302053842944",
+        "2041003304193425408",
+        "2041003305267167232",
+        "2041003308307550208",
+        "2041003312145825792",
+        "2041003312472981504",
+        "2041003314972786688",
+        "2041003316134121472",
+        "2041003318852517888",
+        "2041003324296724480",
+        "2041003325898461184",
+        "2041003328918360064",
+        "2041003330549944320",
+        "2041003331866955776",
+        "2041003334714888192",
+        "2041003336262586368",
+        "2041003337684455424",
+        "2041003339136172032",
+        "2041003342067990528",
+        "2041003344827355136",
+        "2041003348988104704",
+        "2041003350372225024",
+        "2041003351836037120",
+        "2041003354667192320",
+        "2041003357192650752",
+        "2041003360015417344",
+        "2041003382227963904",
+        "2041003385705041920",
+        "2041043276853776384",
+        "2041043279710097408",
+        "2041043282273304576",
+        "2041043296886259712",
+        "2041043325834858496",
+        "2041070938297044992",
+        "2041120127185948672",
+        "2041124497483431936",
+        "2041003372698992640"
+      ],
+      "pickNo": "OPT-SIN-015",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128542",
+              "shelfName": "SS004",
+              "upc": "WST218-744",
+              "sku": "88314402N1",
+              "orderNo": "2040338498490793984",
+              "num": 115
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128548",
+              "shelfName": "SS010",
+              "upc": "WST218-1129",
+              "sku": "88302110N1",
+              "orderNo": "2041003372698992640",
+              "num": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-118",
+        "WST218-1269"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338530710949888",
+            "expressTrackingNo": "9334610990150171162808",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717c59f0d269b064e2aac42e99caab782db.pdf",
+            "upcDescList": [
+              "WST218-118*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338639024656384",
+            "expressTrackingNo": "9334610990150171159433",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717df99b1f45cfa4b1fa9aa2ecd674f8098.pdf",
+            "upcDescList": [
+              "WST218-118*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003268688154624",
+            "expressTrackingNo": "9434630109355132404659",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1114330e7f4299e44de3a15ad869473f7558.pdf",
+            "upcDescList": [
+              "WST218-118*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003362816724992",
+            "expressTrackingNo": "9434630109355132403584",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1115b2d66fac18214489ac259117576c2974.pdf",
+            "upcDescList": [
+              "WST218-118*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003391451238400",
+            "expressTrackingNo": "9434630109355132403317",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1120ab34bbfa342b43e7b7ba9a7e175b9c27.pdf",
+            "upcDescList": [
+              "WST218-118*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041043274102312960",
+            "expressTrackingNo": "9434630109355132404017",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11055276c41878134f7d8cf080cd950f3b8f.pdf",
+            "upcDescList": [
+              "WST218-118*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003370060775424",
+            "expressTrackingNo": "9434630109355132403089",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1041891f441f0af14c53ae661090011af0bb.pdf",
+            "upcDescList": [
+              "WST218-1269*2"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338644708425728",
+            "expressTrackingNo": "9334610990150171161399",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0718031a9ba7dd774388a29e10cffeed2763.pdf",
+            "upcDescList": [
+              "WST218-1269*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040338530710949888",
+        "2040338639024656384",
+        "2041003268688154624",
+        "2041003362816724992",
+        "2041003391451238400",
+        "2041043274102312960",
+        "2041003370060775424",
+        "2040338644708425728"
+      ],
+      "pickNo": "OPT-SIN-016",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128574",
+              "shelfName": "TT006",
+              "upc": "WST218-118",
+              "sku": "201051110n1",
+              "orderNo": "2040338530710949888",
+              "num": 6
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128581",
+              "shelfName": "TT013",
+              "upc": "WST218-1269",
+              "sku": "88310115",
+              "orderNo": "2040338644708425728",
+              "num": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-1221",
+        "WST218-1259",
+        "WST218-958",
+        "WST249-144",
+        "WST249-146"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043309615972352",
+            "expressTrackingNo": "GFUS01044344981120",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/0240dee2d19e142e444487ba78fc8a21abdd.pdf",
+            "upcDescList": [
+              "WST218-1221*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003371134517248",
+            "expressTrackingNo": "9434630109355132403423",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1128b115c3d6329f44dfac4538dfa9c8e2cb.pdf",
+            "upcDescList": [
+              "WST218-1259*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003327370661888",
+            "expressTrackingNo": "9434630109355132404598",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1115a9ae93125d3b41b1bb38f62b609ef600.pdf",
+            "upcDescList": [
+              "WST218-958*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003361445187584",
+            "expressTrackingNo": "9434630109355132403195",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/111550d86f84aa67453e8dae5120edcddae4.pdf",
+            "upcDescList": [
+              "WST218-958*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040972823494197248",
+            "expressTrackingNo": "9200190385106203188785",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1000f2c8489b9ef7467b85e637b7e0d5332e.pdf",
+            "upcDescList": [
+              "WST249-144*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040972887914024960",
+            "expressTrackingNo": "9200190385106203188808",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1000fc89cd9c907b426d8de91e97134f6e6e.pdf",
+            "upcDescList": [
+              "WST249-146*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2041043309615972352",
+        "2041003371134517248",
+        "2041003327370661888",
+        "2041003361445187584",
+        "2040972823494197248",
+        "2040972887914024960"
+      ],
+      "pickNo": "OPT-SIN-017",
+      "labelDesc": [
+        {
+          "zoneName": "A",
+          "items": [
+            {
+              "zoneNo": "Z598",
+              "zoneName": "A",
+              "shelfNo": "S125174",
+              "shelfName": "A014-TOP",
+              "upc": "WST218-958",
+              "sku": "88308658",
+              "orderNo": "2041003327370661888",
+              "num": 2
+            },
+            {
+              "zoneNo": "Z598",
+              "zoneName": "A",
+              "shelfNo": "S125226",
+              "shelfName": "A015-3-1",
+              "upc": "WST218-1221",
+              "sku": "88302171N1",
+              "orderNo": "2041043309615972352",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z598",
+              "zoneName": "A",
+              "shelfNo": "S125239",
+              "shelfName": "A017-3-1",
+              "upc": "WST218-1259",
+              "sku": "88302241",
+              "orderNo": "2041003371134517248",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z598",
+              "zoneName": "A",
+              "shelfNo": "S125415",
+              "shelfName": "A059-TOP",
+              "upc": "WST249-144",
+              "sku": "XSky-39",
+              "orderNo": "2040972823494197248",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z598",
+              "zoneName": "A",
+              "shelfNo": "S125416",
+              "shelfName": "A060-TOP",
+              "upc": "WST249-146",
+              "sku": "XSky-41",
+              "orderNo": "2040972887914024960",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-591",
+        "WST218-277",
+        "WST218-194",
+        "WST218-511",
+        "WST218-932",
+        "WST218-1330",
+        "WST218-1295",
+        "WST218-1265",
+        "WST218-452",
+        "WST218-1158"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338615867904000",
+            "expressTrackingNo": "9334610990150171161382",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717f33b14acc1e943e3995b793c857f180b.pdf",
+            "upcDescList": [
+              "WST218-591*2"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338624994709504",
+            "expressTrackingNo": "9334610990150171159365",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717c61f632540c241688bb10871f13c53d0.pdf",
+            "upcDescList": [
+              "WST218-591*2"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003261759164416",
+            "expressTrackingNo": "9434630109355132404451",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1116ee29f9de9a0e4102b69c1493035d4237.pdf",
+            "upcDescList": [
+              "WST218-591*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003309746683904",
+            "expressTrackingNo": "9434630109355132402914",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1121061afa41d3634ed5b8f3a71cf3e690cb.pdf",
+            "upcDescList": [
+              "WST218-591*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003252817395712",
+            "expressTrackingNo": "9434630109355132405489",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/111541729e7085ba46df82903434229e9898.pdf",
+            "upcDescList": [
+              "WST218-277*1"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003286355050496",
+            "expressTrackingNo": "9434630109355132402815",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1127f13b9cf6384b48e384b3c87b3613edf3.pdf",
+            "upcDescList": [
+              "WST218-277*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043301696638976",
+            "expressTrackingNo": "GFUS01044344975744",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/0240769d9a351dca4de7881f97b19ea2cffc.pdf",
+            "upcDescList": [
+              "WST218-194*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003368492105728",
+            "expressTrackingNo": "9434630109355132403799",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1126d8131909964e493398bd67462183da91.pdf",
+            "upcDescList": [
+              "WST218-511*1"
+            ]
+          },
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043293815541760",
+            "expressTrackingNo": "GFUS01044344971843",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/024032310eeb8b1741aa9669c54aad505e5b.pdf",
+            "upcDescList": [
+              "WST218-511*1"
+            ]
+          },
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043317626605568",
+            "expressTrackingNo": "GFUS01044344981890",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/0240c02e80618e2342d99465818c748eb281.pdf",
+            "upcDescList": [
+              "WST218-511*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041043271535398912",
+            "expressTrackingNo": "9434630109355132402211",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1106367078a24020460bb780bf86e928304c.pdf",
+            "upcDescList": [
+              "WST218-932*1"
+            ]
+          },
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043306977267712",
+            "expressTrackingNo": "GFUS01044344977984",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/024087496af9e4b6422f865774ffbdcdcdea.pdf",
+            "upcDescList": [
+              "WST218-932*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003333650022400",
+            "expressTrackingNo": "9434630109355132404413",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1116f5d3a026b9eb478db27fa6b910d5788c.pdf",
+            "upcDescList": [
+              "WST218-1330*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003375345598464",
+            "expressTrackingNo": "9434630109355132402501",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11147a464eae0e394cb9b6bb4e5aebc58e2b.pdf",
+            "upcDescList": [
+              "WST218-1295*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003274225123328",
+            "expressTrackingNo": "9434630109355132403171",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/11282265d0d3b0bd4bd396bf6fce068967a2.pdf",
+            "upcDescList": [
+              "WST218-1265*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338507261083648",
+            "expressTrackingNo": "9334610990150171160361",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0717d03208d1469941c1acb90d38d1323ccd.pdf",
+            "upcDescList": [
+              "WST218-452*2"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040338641797578752",
+            "expressTrackingNo": "9334610990150171161412",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0718a35cdad1556546f7b2942a7f04049d15.pdf",
+            "upcDescList": [
+              "WST218-452*1"
+            ]
+          }
+        ],
+        [
+          {
+            "companyName": "GOFO",
+            "orderNo": "2041043323020967936",
+            "expressTrackingNo": "GFUS01044344986176",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/0240a2a592601e8245e8bccffbc50060f3bf.pdf",
+            "upcDescList": [
+              "WST218-1158*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040338615867904000",
+        "2040338624994709504",
+        "2041003261759164416",
+        "2041003309746683904",
+        "2041003252817395712",
+        "2041003286355050496",
+        "2041043301696638976",
+        "2041003368492105728",
+        "2041043293815541760",
+        "2041043317626605568",
+        "2041043271535398912",
+        "2041043306977267712",
+        "2041003333650022400",
+        "2041003375345598464",
+        "2041003274225123328",
+        "2040338507261083648",
+        "2040338641797578752",
+        "2041043323020967936"
+      ],
+      "pickNo": "OPT-SIN-018",
+      "labelDesc": [
+        {
+          "zoneName": "B",
+          "items": [
+            {
+              "zoneNo": "Z1044",
+              "zoneName": "B",
+              "shelfNo": "S123050",
+              "shelfName": "B001",
+              "upc": "WST218-591",
+              "sku": "8819015",
+              "orderNo": "2040338615867904000",
+              "num": 6
+            },
+            {
+              "zoneNo": "Z1044",
+              "zoneName": "B",
+              "shelfNo": "S123052",
+              "shelfName": "B003",
+              "upc": "WST218-194",
+              "sku": "20308602N2",
+              "orderNo": "2041043301696638976",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1044",
+              "zoneName": "B",
+              "shelfNo": "S123052",
+              "shelfName": "B003",
+              "upc": "WST218-277",
+              "sku": "20419011",
+              "orderNo": "2041003252817395712",
+              "num": 2
+            },
+            {
+              "zoneNo": "Z1044",
+              "zoneName": "B",
+              "shelfNo": "S123059",
+              "shelfName": "B010",
+              "upc": "WST218-511",
+              "sku": "88303344",
+              "orderNo": "2041003368492105728",
+              "num": 3
+            },
+            {
+              "zoneNo": "Z1044",
+              "zoneName": "B",
+              "shelfNo": "S123074",
+              "shelfName": "B023",
+              "upc": "WST218-1330",
+              "sku": "88301211",
+              "orderNo": "2041003333650022400",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1044",
+              "zoneName": "B",
+              "shelfNo": "S123933",
+              "shelfName": "B23",
+              "upc": "WST218-932",
+              "sku": "88403010",
+              "orderNo": "2041043271535398912",
+              "num": 2
+            },
+            {
+              "zoneNo": "Z1044",
+              "zoneName": "B",
+              "shelfNo": "S123077",
+              "shelfName": "B026",
+              "upc": "WST218-1295",
+              "sku": "88308687N2",
+              "orderNo": "2041003375345598464",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1044",
+              "zoneName": "B",
+              "shelfNo": "S123937",
+              "shelfName": "B27",
+              "upc": "WST218-1265",
+              "sku": "88718036N1",
+              "orderNo": "2041003274225123328",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1044",
+              "zoneName": "B",
+              "shelfNo": "S123939",
+              "shelfName": "B29",
+              "upc": "WST218-452",
+              "sku": "88103119",
+              "orderNo": "2040338507261083648",
+              "num": 3
+            },
+            {
+              "zoneNo": "Z1044",
+              "zoneName": "B",
+              "shelfNo": "S123093",
+              "shelfName": "B042",
+              "upc": "WST218-1158",
+              "sku": "88101352N1",
+              "orderNo": "2041043323020967936",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST218-783"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2041003343305310208",
+            "expressTrackingNo": "9434630109355132404727",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260406/1128906e557ab01b421d9e7b2c12cf6fa2b5.pdf",
+            "upcDescList": [
+              "WST218-783*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2041003343305310208"
+      ],
+      "pickNo": "OPT-SIN-019",
+      "labelDesc": [
+        {
+          "zoneName": "B",
+          "items": [
+            {
+              "zoneNo": "Z1044",
+              "zoneName": "B",
+              "shelfNo": "S126192",
+              "shelfName": "T10",
+              "upc": "WST218-783",
+              "sku": "88611012",
+              "orderNo": "2041003343305310208",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "multiple": [
+    {
+      "upcUniqueList": [
+        "JWJ-HBL-001/WST264-XN"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040261805084311552",
+            "expressTrackingNo": "9334610990150171162792",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0759dd555b484c664b38baddab5188e9894e.pdf",
+            "upcDescList": [
+              "JWJ-HBL-001*1",
+              "WST264-XN*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040261805084311552"
+      ],
+      "pickNo": "OPT-MUL-001",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128169",
+              "shelfName": "EE025",
+              "upc": "JWJ-HBL-001",
+              "sku": "20258-JWJPD-1PC",
+              "orderNo": "2040261805084311552",
+              "num": 1
+            }
+          ]
+        },
+        {
+          "zoneName": "A",
+          "items": [
+            {
+              "zoneNo": "Z598",
+              "zoneName": "A",
+              "shelfNo": "S125230",
+              "shelfName": "0",
+              "upc": "WST264-XN",
+              "sku": "虚拟库存",
+              "orderNo": "2040261805084311552",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "MNTZ-D-004/MNTZ-A-001/WST264-XN"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040261641158328320",
+            "expressTrackingNo": "9334610990150171159334",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/070857b38ccb4da643b7b3e943dcfe08ae7b.pdf",
+            "upcDescList": [
+              "MNTZ-D-004*3",
+              "MNTZ-A-001*2",
+              "WST264-XN*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040261641158328320"
+      ],
+      "pickNo": "OPT-MUL-002",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S129716",
+              "shelfName": "MM009",
+              "upc": "MNTZ-D-004",
+              "sku": "MBH01-BUNNY-D",
+              "orderNo": "2040261641158328320",
+              "num": 3
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128399",
+              "shelfName": "WW055",
+              "upc": "MNTZ-A-001",
+              "sku": "MBH01-BUNNY-A",
+              "orderNo": "2040261641158328320",
+              "num": 2
+            }
+          ]
+        },
+        {
+          "zoneName": "A",
+          "items": [
+            {
+              "zoneNo": "Z598",
+              "zoneName": "A",
+              "shelfNo": "S125230",
+              "shelfName": "0",
+              "upc": "WST264-XN",
+              "sku": "虚拟库存",
+              "orderNo": "2040261641158328320",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "MNTZ-B-002/MNTZ-D-004/WST264-XN"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040261662138236928",
+            "expressTrackingNo": "9334610990150171159426",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0759934b3e1a335a4207afa4b0c72ec32531.pdf",
+            "upcDescList": [
+              "MNTZ-B-002*1",
+              "MNTZ-D-004*1",
+              "WST264-XN*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040261662138236928"
+      ],
+      "pickNo": "OPT-MUL-003",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S129716",
+              "shelfName": "MM009",
+              "upc": "MNTZ-B-002",
+              "sku": "MBH01-BUNNY-B",
+              "orderNo": "2040261662138236928",
+              "num": 1
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S129716",
+              "shelfName": "MM009",
+              "upc": "MNTZ-D-004",
+              "sku": "MBH01-BUNNY-D",
+              "orderNo": "2040261662138236928",
+              "num": 1
+            }
+          ]
+        },
+        {
+          "zoneName": "A",
+          "items": [
+            {
+              "zoneNo": "Z598",
+              "zoneName": "A",
+              "shelfNo": "S125230",
+              "shelfName": "0",
+              "upc": "WST264-XN",
+              "sku": "虚拟库存",
+              "orderNo": "2040261662138236928",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WST264-XN/LHJMXL-QL-001"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260702170615808",
+            "expressTrackingNo": "9334610990150171157491",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07080b43ca141aeb444d833a2458dc6b7fbe.pdf",
+            "upcDescList": [
+              "WST264-XN*1",
+              "LHJMXL-QL-001*4"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260498423910400",
+            "expressTrackingNo": "9334610990150171159389",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07083c84173e25dd4b219281cbd6f696dbfd.pdf",
+            "upcDescList": [
+              "WST264-XN*1",
+              "LHJMXL-QL-001*3"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260489649426432",
+            "expressTrackingNo": "9334610990150171159525",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0708a19ae8aa2878496e961620fac5770c9a.pdf",
+            "upcDescList": [
+              "WST264-XN*1",
+              "LHJMXL-QL-001*3"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260473480384512",
+            "expressTrackingNo": "9334610990150171163973",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0708c9f1ab9e4f5c4cc99abaee9d95d0fdc6.pdf",
+            "upcDescList": [
+              "WST264-XN*1",
+              "LHJMXL-QL-001*4"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260466467995648",
+            "expressTrackingNo": "9334610990150171159341",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0708ed734f737268409a97a449bf528dc536.pdf",
+            "upcDescList": [
+              "WST264-XN*1",
+              "LHJMXL-QL-001*3"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260441729503232",
+            "expressTrackingNo": "9334610990150171161245",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07087f57144171af49d6849ec435779401ae.pdf",
+            "upcDescList": [
+              "WST264-XN*1",
+              "LHJMXL-QL-001*3"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260421114986496",
+            "expressTrackingNo": "9334610990150171161450",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0708088bc4bc64c448a2b8c869f47403d374.pdf",
+            "upcDescList": [
+              "WST264-XN*1",
+              "LHJMXL-QL-001*6"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260396662194176",
+            "expressTrackingNo": "9334610990150171161443",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0708fece70d125a749b2b158fac52f7b066b.pdf",
+            "upcDescList": [
+              "WST264-XN*1",
+              "LHJMXL-QL-001*3"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260381230862336",
+            "expressTrackingNo": "9334610990150171161467",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07089a6b03fc724840b581ff0493b16090fd.pdf",
+            "upcDescList": [
+              "WST264-XN*1",
+              "LHJMXL-QL-001*4"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260376596156416",
+            "expressTrackingNo": "9334610990150171160392",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0708d7862efe406043d2897f0458ed5d8b1a.pdf",
+            "upcDescList": [
+              "WST264-XN*1",
+              "LHJMXL-QL-001*3"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260348259926016",
+            "expressTrackingNo": "9334610990150171159372",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07078bb9373833d5494f96e9c7d37a6f6e67.pdf",
+            "upcDescList": [
+              "WST264-XN*1",
+              "LHJMXL-QL-001*4"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260313245388800",
+            "expressTrackingNo": "9334610990150171164246",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07085480404d7c1f47f184907f89c1e10486.pdf",
+            "upcDescList": [
+              "WST264-XN*1",
+              "LHJMXL-QL-001*4"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040260702170615808",
+        "2040260498423910400",
+        "2040260489649426432",
+        "2040260473480384512",
+        "2040260466467995648",
+        "2040260441729503232",
+        "2040260421114986496",
+        "2040260396662194176",
+        "2040260381230862336",
+        "2040260376596156416",
+        "2040260348259926016",
+        "2040260313245388800"
+      ],
+      "pickNo": "OPT-MUL-004",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S129729",
+              "shelfName": "MM022",
+              "upc": "LHJMXL-QL-001",
+              "sku": "15020-SSSXL-Seafoam Aqua",
+              "orderNo": "2040260702170615808",
+              "num": 44
+            }
+          ]
+        },
+        {
+          "zoneName": "A",
+          "items": [
+            {
+              "zoneNo": "Z598",
+              "zoneName": "A",
+              "shelfNo": "S125230",
+              "shelfName": "0",
+              "upc": "WST264-XN",
+              "sku": "虚拟库存",
+              "orderNo": "2040260702170615808",
+              "num": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "LHJMXL-SL-002/WST264-XN/LHJMXL-QL-001"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040261797358403584",
+            "expressTrackingNo": "9334610990150171161214",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0708e253b491f3154d25be39f544cb78f11b.pdf",
+            "upcDescList": [
+              "LHJMXL-SL-002*1",
+              "WST264-XN*1",
+              "LHJMXL-QL-001*2"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260195620327424",
+            "expressTrackingNo": "9334610990150171161238",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/07076b0992ab23de41b39cae7f2fd90591f2.pdf",
+            "upcDescList": [
+              "LHJMXL-SL-002*2",
+              "WST264-XN*1",
+              "LHJMXL-QL-001*2"
+            ]
+          },
+          {
+            "companyName": "USPS",
+            "orderNo": "2040260179967184896",
+            "expressTrackingNo": "9334610990150171159549",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0708d62609ce70984b3b94101cc9d43a9d2d.pdf",
+            "upcDescList": [
+              "LHJMXL-SL-002*3",
+              "WST264-XN*1",
+              "LHJMXL-QL-001*3"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040261797358403584",
+        "2040260195620327424",
+        "2040260179967184896"
+      ],
+      "pickNo": "OPT-MUL-005",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S129729",
+              "shelfName": "MM022",
+              "upc": "LHJMXL-QL-001",
+              "sku": "15020-SSSXL-Seafoam Aqua",
+              "orderNo": "2040261797358403584",
+              "num": 7
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S129729",
+              "shelfName": "MM022",
+              "upc": "LHJMXL-SL-002",
+              "sku": "15020-SSSXL-Ocean Blue",
+              "orderNo": "2040261797358403584",
+              "num": 6
+            }
+          ]
+        },
+        {
+          "zoneName": "A",
+          "items": [
+            {
+              "zoneNo": "Z598",
+              "zoneName": "A",
+              "shelfNo": "S125230",
+              "shelfName": "0",
+              "upc": "WST264-XN",
+              "sku": "虚拟库存",
+              "orderNo": "2040261797358403584",
+              "num": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "MNTZ-C-003/MNTZ-D-004/WST264-XN"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040261537956990976",
+            "expressTrackingNo": "9334610990150171157507",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0708623e2f420c584486b621a3130a7185c4.pdf",
+            "upcDescList": [
+              "MNTZ-C-003*3",
+              "MNTZ-D-004*3",
+              "WST264-XN*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040261537956990976"
+      ],
+      "pickNo": "OPT-MUL-006",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S129716",
+              "shelfName": "MM009",
+              "upc": "MNTZ-D-004",
+              "sku": "MBH01-BUNNY-D",
+              "orderNo": "2040261537956990976",
+              "num": 3
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128399",
+              "shelfName": "WW055",
+              "upc": "MNTZ-C-003",
+              "sku": "MBH01-BUNNY-C",
+              "orderNo": "2040261537956990976",
+              "num": 3
+            }
+          ]
+        },
+        {
+          "zoneName": "A",
+          "items": [
+            {
+              "zoneNo": "Z598",
+              "zoneName": "A",
+              "shelfNo": "S125230",
+              "shelfName": "0",
+              "upc": "WST264-XN",
+              "sku": "虚拟库存",
+              "orderNo": "2040261537956990976",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "MNTZ-B-002/MNTZ-A-001/WST264-XN"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2040261581880229888",
+            "expressTrackingNo": "9334610990150171159327",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/0708adeda48c0ca047d0b8c98c6b00175d25.pdf",
+            "upcDescList": [
+              "MNTZ-B-002*2",
+              "MNTZ-A-001*2",
+              "WST264-XN*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2040261581880229888"
+      ],
+      "pickNo": "OPT-MUL-007",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128399",
+              "shelfName": "WW055",
+              "upc": "MNTZ-A-001",
+              "sku": "MBH01-BUNNY-A",
+              "orderNo": "2040261581880229888",
+              "num": 2
+            },
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128399",
+              "shelfName": "WW055",
+              "upc": "MNTZ-B-002",
+              "sku": "MBH01-BUNNY-B",
+              "orderNo": "2040261581880229888",
+              "num": 2
+            }
+          ]
+        },
+        {
+          "zoneName": "A",
+          "items": [
+            {
+              "zoneNo": "Z598",
+              "zoneName": "A",
+              "shelfNo": "S125230",
+              "shelfName": "0",
+              "upc": "WST264-XN",
+              "sku": "虚拟库存",
+              "orderNo": "2040261581880229888",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "DZTX-Black-L-001/WST264-XN"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "2039876034971668480",
+            "expressTrackingNo": "9334610990150171160231",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/075945c9b5d559db4464b0890d651cd7a9aa.pdf",
+            "upcDescList": [
+              "DZTX-Black-L-001*2",
+              "WST264-XN*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "2039876034971668480"
+      ],
+      "pickNo": "OPT-MUL-008",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128399",
+              "shelfName": "WW055",
+              "upc": "DZTX-Black-L-001",
+              "sku": "FHJTX-Black-L",
+              "orderNo": "2039876034971668480",
+              "num": 2
+            }
+          ]
+        },
+        {
+          "zoneName": "A",
+          "items": [
+            {
+              "zoneNo": "Z598",
+              "zoneName": "A",
+              "shelfNo": "S125230",
+              "shelfName": "0",
+              "upc": "WST264-XN",
+              "sku": "虚拟库存",
+              "orderNo": "2039876034971668480",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "upcUniqueList": [
+        "WSTG345-U12/WSTG345-U03"
+      ],
+      "orders": [
+        [
+          {
+            "companyName": "USPS",
+            "orderNo": "105366902554",
+            "expressTrackingNo": "9200190385106203185791",
+            "expressLabelUrl": "https://storage-hi.oss-cn-hangzhou.aliyuncs.com/public/20260405/012889515b8c2b8745c490eb7368943e8262.pdf",
+            "upcDescList": [
+              "WSTG345-U12*1",
+              "WSTG345-U03*1"
+            ]
+          }
+        ]
+      ],
+      "orderNoList": [
+        "105366902554"
+      ],
+      "pickNo": "OPT-MUL-009",
+      "labelDesc": [
+        {
+          "zoneName": "2220",
+          "items": [
+            {
+              "zoneNo": "Z1550",
+              "zoneName": "2220",
+              "shelfNo": "S128244",
+              "shelfName": "BB010",
+              "upc": "WSTG345-U03",
+              "sku": "Baccarat Rouge  540 70 ML，有袋子",
+              "orderNo": "105366902554",
+              "num": 1
+            }
+          ]
+        },
+        {
+          "zoneName": "B",
+          "items": [
+            {
+              "zoneNo": "Z1044",
+              "zoneName": "B",
+              "shelfNo": "S111597",
+              "shelfName": "B250",
+              "upc": "WSTG345-U12",
+              "sku": "YSL Y EDP，有袋子",
+              "orderNo": "105366902554",
+              "num": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

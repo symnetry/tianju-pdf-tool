@@ -467,17 +467,16 @@ function parseShelfPosition(shelfName) {
 		const [, prefix, numStr] = knownDoubleMatch;
 		const number = Number(numStr);
 		const row = KNOWN_DOUBLE_PREFIX_RANK.get(prefix);
-		const isLowerRow = number <= 15;
-		const column = isLowerRow ? 15 - number : number - 16;
-		const side = isLowerRow ? 1 : 0;
+		// 2220 仓这类 `AA001` / `BB014` / `CC030` 货位，按前缀分区后直接使用数字升序。
+		// 不再假设同一字母区内部走蛇形路径，避免出现 `AA017` 被排在 `AA001` 前面。
 		position = {
 			prefix,
 			number,
 			row,
-			column,
-			side,
+			column: number,
+			side: 0,
 			detail: 0,
-			travelIndex: row * 1000000 + column * 100 + side,
+			travelIndex: row * 1000000 + number * 100,
 		};
 	} else {
 		const genericMatch = normalized.match(/^([A-Z]+)(.*)$/);
@@ -575,6 +574,8 @@ function compareLabelItems(a, b) {
  *   anchorShelfKey: string,
  *   anchorPosition: { prefix: string, number: number, row: number, column: number, side: number, detail: number, travelIndex: number },
  *   totalQty: number,
+ *   minTravelIndex: number,
+ *   maxTravelIndex: number,
  *   avgTravelIndex: number
  * }} 该 group 的位置摘要信息。
  */
@@ -587,6 +588,8 @@ function buildLocationSummary(labelItems) {
 	const prefixSet = new Set();
 	let totalQty = 0;
 	let weightedTravelIndex = 0;
+	let minTravelIndex = Infinity;
+	let maxTravelIndex = -Infinity;
 
 	for (const item of labelItems) {
 		const qty = Number(item.num) || 1;
@@ -597,6 +600,8 @@ function buildLocationSummary(labelItems) {
 
 		totalQty += qty;
 		weightedTravelIndex += position.travelIndex * qty;
+		minTravelIndex = Math.min(minTravelIndex, position.travelIndex);
+		maxTravelIndex = Math.max(maxTravelIndex, position.travelIndex);
 		zoneSet.add(zoneName);
 		shelfSet.add(shelfName);
 		prefixSet.add(position.prefix);
@@ -610,6 +615,7 @@ function buildLocationSummary(labelItems) {
 	const anchorShelfKey = pickMaxKey(zoneShelfWeights) || `${dominantZone}__${dominantShelf}`;
 	const [, anchorShelfName = dominantShelf] = anchorShelfKey.split("__");
 	const anchorPosition = parseShelfPosition(anchorShelfName);
+	const fallbackTravelIndex = anchorPosition.travelIndex;
 
 	return {
 		zoneSet,
@@ -622,8 +628,14 @@ function buildLocationSummary(labelItems) {
 		anchorShelfKey,
 		anchorPosition,
 		totalQty,
+		minTravelIndex: Number.isFinite(minTravelIndex)
+			? minTravelIndex
+			: fallbackTravelIndex,
+		maxTravelIndex: Number.isFinite(maxTravelIndex)
+			? maxTravelIndex
+			: fallbackTravelIndex,
 		avgTravelIndex:
-			totalQty > 0 ? weightedTravelIndex / totalQty : anchorPosition.travelIndex,
+			totalQty > 0 ? weightedTravelIndex / totalQty : fallbackTravelIndex,
 	};
 }
 
@@ -783,6 +795,36 @@ function compareGroupsByAnchor(a, b) {
 }
 
 /**
+ * 按 group 在仓内路径上的起止位置做线性排序，适用于 `single` 的全局顺序规划。
+ *
+ * `single` 的目标更接近“沿仓库路径单向扫过去”，因此优先比较最早触达的货位，
+ * 再比较该 group 的结束位置；同一路径段内再让件数更大的 group 靠前。
+ *
+ * @param {{ location: ReturnType<typeof buildLocationSummary>, pieceCount: number, upcUnique: string }} a 左侧 group。
+ * @param {{ location: ReturnType<typeof buildLocationSummary>, pieceCount: number, upcUnique: string }} b 右侧 group。
+ * @returns {number} 适用于 `single` 排序的比较结果。
+ */
+function compareSingleGroupsByPath(a, b) {
+	if (a.location.minTravelIndex !== b.location.minTravelIndex) {
+		return a.location.minTravelIndex - b.location.minTravelIndex;
+	}
+	if (a.location.maxTravelIndex !== b.location.maxTravelIndex) {
+		return a.location.maxTravelIndex - b.location.maxTravelIndex;
+	}
+	if (a.location.anchorPosition.travelIndex !== b.location.anchorPosition.travelIndex) {
+		return a.location.anchorPosition.travelIndex - b.location.anchorPosition.travelIndex;
+	}
+	if (b.pieceCount !== a.pieceCount) {
+		return b.pieceCount - a.pieceCount;
+	}
+	return String(a.upcUnique).localeCompare(String(b.upcUnique));
+}
+
+function getGroupSortComparator(type) {
+	return type === "single" ? compareSingleGroupsByPath : compareGroupsByAnchor;
+}
+
+/**
  * 创建一个空的批次上下文，用于增量装填 group。
  *
  * @param {"single"|"multiple"} type 当前处理的数据类型。
@@ -925,7 +967,7 @@ function scoreCandidate(candidate, context, boxSize) {
 
 	let score = 0;
 	score += sharedShelves * 4000;
-	score += sharedPrefixes * 1200;
+	score += sharedPrefixes * 10000;
 	score += sharedZones * 900;
 	if (context.shelfSet.has(candidate.location.dominantShelf)) {
 		score += 3000;
@@ -933,7 +975,12 @@ function scoreCandidate(candidate, context, boxSize) {
 	if (context.zoneSet.has(candidate.location.dominantZone)) {
 		score += 1800;
 	}
-	score += Math.max(0, 1200 - distance * 12);
+
+	if (sharedPrefixes === 0) {
+		score -= 10000;
+	}
+
+	score += Math.max(0, 1200 - distance * 15);
 	score += Math.max(0, 600 - candidate.location.anchorPosition.row * 20);
 	score += Math.max(0, 150 - remains * 10);
 	score += Math.max(0, 300 - addedSlots * 20);
@@ -1007,7 +1054,7 @@ function aggregateOutputLabelItems(type, items) {
  * }} 最终批次对象及其统计信息。
  */
 function buildBatchFromGroups(type, batchNo, groups) {
-	const sortedGroups = [...groups].sort(compareGroupsByAnchor);
+	const sortedGroups = [...groups].sort(getGroupSortComparator(type));
 	const upcUniqueList = [];
 	const orders = [];
 	const orderNoSet = new Set();
@@ -1077,7 +1124,73 @@ function buildBatchFromGroups(type, batchNo, groups) {
 
 
 /**
+ * 对 `single` 批次执行“全局路径排序 + 连续分批”。
+ *
+ * `single` 的组之间没有 `multiple` 那种组合绑定约束，更适合先按仓内路径排成一条线，
+ * 再按容量顺序切批，避免种子选择把同一路径上的组打散。
+ *
+ * @param {Array<Record<string, any>>} batches 原始 `single` 批次数组。
+ * @param {number} boxSize 每个优化后批次允许的最大槽位数。
+ * @returns {{
+ *   groups: Array<Record<string, any>>,
+ *   optimizedBatches: Array<Record<string, any>>,
+ *   metrics: { totalZoneSwitches: number, totalShelfSwitches: number, totalItems: number }
+ * }} 原始 group 列表、优化后的批次列表及统计信息。
+ */
+function optimizeSingleBatchesByPath(batches, boxSize) {
+	const groups = buildGroups("single", batches).sort(compareSingleGroupsByPath);
+	const optimizedBatches = [];
+	const metrics = {
+		totalZoneSwitches: 0,
+		totalShelfSwitches: 0,
+		totalItems: 0,
+	};
+	let currentGroups = [];
+	let currentUsedSlots = 0;
+
+	const flushCurrentBatch = () => {
+		if (currentGroups.length === 0) {
+			return;
+		}
+		const { batch, metrics: batchMetrics } = buildBatchFromGroups(
+			"single",
+			optimizedBatches.length + 1,
+			currentGroups,
+		);
+		optimizedBatches.push(batch);
+		metrics.totalZoneSwitches += batchMetrics.totalZoneSwitches;
+		metrics.totalShelfSwitches += batchMetrics.totalShelfSwitches;
+		metrics.totalItems += batchMetrics.totalItems;
+		currentGroups = [];
+		currentUsedSlots = 0;
+	};
+
+	for (const group of groups) {
+		const nextUsedSlots = currentUsedSlots + group.slotCost;
+		
+		const shouldFlush = (currentGroups.length > 0 && nextUsedSlots > boxSize);
+		
+		if (shouldFlush) {
+			flushCurrentBatch();
+		}
+		
+		currentGroups.push(group);
+		currentUsedSlots += group.slotCost;
+	}
+
+	flushCurrentBatch();
+
+	return {
+		groups,
+		optimizedBatches,
+		metrics,
+	};
+}
+
+/**
  * 对某一类批次（`single` 或 `multiple`）执行重排优化。
+ *
+ * `single` 走全局路径排序；`multiple` 保留启发式聚类。
  *
  * @param {"single"|"multiple"} type 当前处理的数据类型。
  * @param {Array<Record<string, any>>} batches 原始批次数组。
@@ -1089,7 +1202,11 @@ function buildBatchFromGroups(type, batchNo, groups) {
  * }} 原始 group 列表、优化后的批次列表及统计信息。
  */
 function optimizeTypeBatches(type, batches, boxSize) {
-	// 先选一个种子 group，再不断挑选“最像当前批次”的候选项塞进来，
+	if (type === "single") {
+		return optimizeSingleBatchesByPath(batches, boxSize);
+	}
+
+	// `multiple` 先选一个种子 group，再不断挑选“最像当前批次”的候选项塞进来，
 	// 直到达到 boxSize 上限。这里用的是启发式评分，不是全局最优求解。
 	const groups = buildGroups(type, batches).sort(compareGroupsByAnchor);
 	const remaining = new Set(groups.map((group) => group.id));
