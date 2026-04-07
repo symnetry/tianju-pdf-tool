@@ -3,3 +3,7 @@ history*/
 node_modules/
 test/
 electron/
+output/
+tianju_orders*.json
+codebuddy*.md
+history*.md
