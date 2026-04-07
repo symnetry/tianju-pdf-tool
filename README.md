@@ -1,4 +1,4 @@
-# 天炬订单处理工具
+# 天聚订单处理工具
 
 用于处理订单 JSON、优化拣货批次、下载面单，并生成最终的批次 PDF。
 
@@ -22,9 +22,11 @@ npm install
 ## 主要脚本
 
 ### `process-ordersV4.js`
+
 当前主入口。
 
 功能：
+
 - 读取订单 JSON
 - 先执行拣货优化
 - 用优化后的结果覆盖原始 JSON
@@ -39,6 +41,7 @@ node process-ordersV4.js <json文件> [输出文件夹名] [-JSON=true] [--box-s
 ```
 
 参数说明：
+
 - `<json文件>`：输入订单 JSON 文件
 - `[输出文件夹名]`：输出目录，默认是 `output`
 - `-JSON=true`：在每个批次目录中保留 `order.json`
@@ -59,6 +62,7 @@ node process-ordersV4.js tianju_orders_1774711163123.json --skip-optimize
 最后一条命令会跳过优化，并继续输出到默认目录 `output`，不会生成名为 `--skip-optimize` 的文件夹。
 
 ### `optimize-pick-batches.js`
+
 单独执行拣货优化，不生成 PDF。
 
 命令格式：
@@ -68,6 +72,7 @@ node optimize-pick-batches.js <输入JSON> [输出JSON] [--box-size=15]
 ```
 
 功能：
+
 - 保持 `upcUniqueList` 与 `orders` 的索引关系不变
 - `single` / `multiple` 分开优化
 - 优先按 `zoneName` 聚合
@@ -98,6 +103,7 @@ output/
 ```
 
 说明：
+
 - 默认最终保留 `merged.pdf`
 - 只有传入 `-JSON=true` 时才会保留批次 `order.json`
 - 中间下载的 PDF、cover、pick-list 会在合并完成后自动删除
@@ -105,10 +111,12 @@ output/
 ## 数据结构说明
 
 输入 JSON 主要包含：
+
 - `single`
 - `multiple`
 
 每个批次内包含：
+
 - `upcUniqueList`
 - `orders`
 - `orderNoList`
@@ -116,6 +124,7 @@ output/
 - `labelDesc`
 
 其中：
+
 - `upcUniqueList[i]` 对应 `orders[i]`
 - `labelDesc` 表示仓库中的分区与货架位置
 
@@ -131,3 +140,4 @@ output/
 - `process-ordersV2.js`：旧版 JSON 结构
 - `process-ordersV3.js`：中间版本
 - 当前推荐使用：`process-ordersV4.js`
+

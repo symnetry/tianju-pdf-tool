@@ -7,3 +7,5 @@ output/
 tianju_orders*.json
 codebuddy*.md
 history*.md
+test-sample.json
+test_optimized.json
