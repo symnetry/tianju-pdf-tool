@@ -1,0 +1,80 @@
+flowchart TD
+    A["原始订单 JSON
+    结构:
+    single[]
+    multiple[]"] --> B["process-ordersV4.js
+    主入口"]
+
+    B --> C{"--skip-optimize ?"}
+    C -->|否| D["调用 optimizePickingData(...)
+    来自 optimize-pick-batches.js"]
+    C -->|是| E["直接使用原始 JSON"]
+
+    D --> D1["buildGroups
+    把 upcUniqueList[i] + orders[i]
+    视为不可拆 group"]
+
+    D1 --> D2["解析 labelDesc
+    提取 zone / shelf / travelIndex"]
+
+    D2 --> D3{"按类型优化"}
+    D3 -->|single| D4["全局路径排序
+    compareSingleGroupsByPath"]
+    D3 -->|multiple| D5["启发式聚类装箱
+    scoreCandidate + boxSize"]
+
+    D4 --> D6["buildBatchFromGroups
+    重建 single 批次"]
+    D5 --> D7["buildBatchFromGroups
+    重建 multiple 批次"]
+
+    D6 --> D8["optimizedData.single[]"]
+    D7 --> D9["optimizedData.multiple[]"]
+
+    D8 --> D10["优化后 JSON"]
+    D9 --> D10["优化后 JSON"]
+
+    D10 --> D11["process-ordersV4.js
+    默认覆盖写回输入 JSON"]
+    E --> F["未优化 JSON"]
+
+    D11 --> G["开始生成输出目录"]
+    F --> G["开始生成输出目录"]
+
+    G --> H{"遍历类型"}
+    H -->|single| I["processSingleBatch"]
+    H -->|multiple| J["processMultipleBatch"]
+
+    I --> I1["生成 order.json
+    可选: -JSON=true"]
+    I --> I2["根据 labelDesc
+    生成 pick-list.pdf"]
+    I --> I3["按 upcUniqueList 遍历"]
+    I3 --> I4["下载 expressLabelUrl
+    面单 PDF"]
+    I4 --> I5["生成 cover-xxx.pdf
+    1个 UPC 对应 1个 cover"]
+    I5 --> I6["mergePDFs
+    cover -> 面单 -> pick-list*2"]
+    I6 --> I7["输出
+    output/single/Batch_n/merged.pdf"]
+
+    J --> J1["生成 order.json
+    可选: -JSON=true"]
+    J --> J2["根据 labelDesc
+    生成 pick-list.pdf"]
+    J --> J3["先按完全相同 upcDescList
+    拆分 groupedOrders"]
+    J3 --> J4["下载 expressLabelUrl
+    面单 PDF"]
+    J4 --> J5["生成 cover-xxx.pdf
+    1个 SKU 精确分组对应 1个 cover"]
+    J5 --> J6["mergePDFs
+    cover -> 面单 -> pick-list*2"]
+    J6 --> J7["输出
+    output/multiple/Batch_n/merged.pdf"]
+
+    I7 --> Z["删除中间 PDF
+    仅保留 merged.pdf"]
+    J7 --> Z["删除中间 PDF
+    仅保留 merged.pdf"]

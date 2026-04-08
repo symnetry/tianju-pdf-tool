@@ -348,7 +348,7 @@ function allocateLabelItemsByDemand(demandMap, labelPool, fallbackOrderNo = "") 
 			if (remainingDemand <= 0) break;
 			if ((entry?.remaining || 0) <= 0) continue;
 			const itemUpc = entry?.item?.upc || entry?.item?.sku || "";
-			if (itemUpc !== upc) continue;
+			if (itemUpc.toLowerCase() !== upc.toLowerCase()) continue;
 
 			const takeQty = Math.min(entry.remaining, remainingDemand);
 			if (takeQty <= 0) continue;
