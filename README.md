@@ -78,6 +78,32 @@ node optimize-pick-batches.js <输入JSON> [输出JSON] [--box-size=15]
 - 优先按 `zoneName` 聚合
 - 尽量让同一批次靠近同一 `shelfName`
 - `single` 中每组 `orders` 按数量从大到小排序
+- **UPC 大小写不敏感匹配**（2026-04-08 更新）：
+  - 匹配时忽略大小写差异
+  - 例如："Ody-Marshmallow" 和 "Ody-marshmallow" 会被正确匹配
+- **orderNo 不可信处理**（2026-04-09 更新）：
+  - 当同一个 UPC 以不同大小写形式出现时，orderNo 已不可信
+  - single 类型也使用 `outputItemKeySet` 来计算 slot 占用
+  - 使用 `outputItemKey` 来聚合拣货单（UPC 和 SKU 都转成小写）
+- **single 类型 UPC 大小写合并**（2026-04-09 更新）：
+  - 合并大小写相同且 upcDescList 完全相同的 UPC
+  - 按 UPC 小写 + upcDescList 精确匹配分组
+  - 例如："AAA*3" 和 "AAA*1" 会被分到不同组，分别生成 cover
+- **single 类型批次优化**（2026-04-09 更新）：
+  - 先把所有 single 批次合并成一个大批次
+  - 使用 `outputItemKeySet` 去重计算 slot 占用
+  - 确保每批尽量填满 15 个不同 SKU
+- **single 类型拣货单聚合**（2026-04-09 更新）：
+  - single 类型也做拣货单聚合
+  - 与 multiple 类型保持一致的聚合逻辑
+- **single 类型 labelDesc 获取方式修复**（2026-04-09 更新）：
+  - 发现 shared labelDesc item 的问题：多个只是大小写不同的 UPC 共享同一个 labelDesc item
+  - 改回使用 `allocateLabelItemsByDemand` 获取 labelItems，而不是用 `collectLabelItems`
+  - 不传 fallbackOrderNo，让它用原始 item 的 orderNo
+- **preprocessBatch 合并逻辑优化**（2026-04-09 更新）：
+  - 直接从 batch.labelDesc 中查找 UPC 匹配的 item，而不是用 orderNo 去匹配
+  - 按 UPC 小写 + 库位信息作为合并 key
+  - 正确合并像 "Shiliu-lv" 和 "shiliu-lv" 这种共享 labelDesc item 的 UPC
 
 示例：
 
@@ -134,6 +160,34 @@ output/
 2. 如果不希望覆盖原文件，请使用 `--skip-optimize`，或者先手动备份原 JSON。
 3. 需要稳定网络以下载 `expressLabelUrl` 对应的 PDF。
 4. 请确保当前目录已正确安装依赖，否则可能出现 `Cannot find module 'pdfkit'` 等错误。
+5. **UPC 大小写处理**（2026-04-08 更新）：
+   - multiple 类型的 UPC 匹配已改为大小写不敏感
+   - 例如："Ody-Marshmallow" 和 "Ody-marshmallow" 会被正确匹配
+   - 最终拣货单中 UPC 的大小写原样保留，不会被统一转换
+6. **orderNo 不可信**（2026-04-09 更新）：
+   - 当同一个 UPC 以不同大小写形式出现在 upcUniqueList 中时（如 "Shiliu-lv" 和 "shiliu-lv"）
+   - 根据订单号获取拣货单时，只会返回一个整合了的拣货单
+   - 所以 single 类型也不能使用 orderNo 来做匹配了
+   - 现在 single 类型也使用 `outputItemKeySet` 来计算 slot 占用
+   - 使用 `outputItemKey` 来聚合拣货单（UPC 和 SKU 都转成小写）
+7. **single 类型 UPC 大小写合并**（2026-04-09 更新）：
+   - 合并大小写相同且 upcDescList 完全相同的 UPC
+   - 按 UPC 小写 + upcDescList 精确匹配分组
+   - 例如："AAA*3" 和 "AAA*1" 会被分到不同组，分别生成 cover
+8. **single 类型批次优化**（2026-04-09 更新）：
+   - 先把所有 single 批次合并成一个大批次
+   - 使用 `outputItemKeySet` 去重计算 slot 占用
+   - 确保每批尽量填满 15 个不同 SKU
+   - 相同的 UPC 不会被切分到不同批次
+   - 不会出现数据丢失问题
+9. **labelDesc 中的 orderNo 不重要**（2026-04-09 更新）：
+   - 拣货单不打印 orderNo，所以 labelDesc 中的 orderNo 字段不重要
+   - 当多个只是大小写不同的 UPC 共享同一个 labelDesc item 时，orderNo 只是其中一个订单号
+   - 只要拣货单中的库位、UPC、数量正确就行
+10. **preprocessBatch 合并逻辑**（2026-04-09 更新）：
+    - 直接从 batch.labelDesc 中查找 UPC 匹配的 item，而不是用 orderNo 去匹配
+    - 按 UPC 小写 + 库位信息作为合并 key
+    - 正确合并像 "Shiliu-lv" 和 "shiliu-lv" 这种共享 labelDesc item 的 UPC
 
 ## 历史脚本
 

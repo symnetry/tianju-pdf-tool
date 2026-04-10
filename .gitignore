@@ -9,3 +9,7 @@ codebuddy*.md
 history*.md
 test-sample.json
 test_optimized.json
+/原始数据/*
+/dropship/*
+/self/*
+.trae/

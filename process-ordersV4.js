@@ -51,11 +51,28 @@ function downloadFile(url, filePath) {
 function normalizeCoverSkuLines(upc) {
 	if (Array.isArray(upc)) {
 		return upc
-			.map((item) => String(item || "").trim())
+			.map((item) => {
+				const text = String(item || "").trim();
+				const match = text.match(/^(.+?)(\*\d+)?$/);
+				if (match) {
+					const baseUpc = match[1].toLowerCase();
+					const qty = match[2] || "";
+					return baseUpc + qty;
+				}
+				return text.toLowerCase();
+			})
 			.filter(Boolean);
 	}
 	const text = String(upc || "").trim();
-	return text ? [text] : [];
+	if (!text) return [];
+	
+	const match = text.match(/^(.+?)(\*\d+)?$/);
+	if (match) {
+		const baseUpc = match[1].toLowerCase();
+		const qty = match[2] || "";
+		return [baseUpc + qty];
+	}
+	return [text.toLowerCase()];
 }
 
 function buildMultipleOrderSignature(upcDescList) {
@@ -87,7 +104,7 @@ function formatCoverSkuText(upc) {
 	if (Array.isArray(upc)) {
 		return lines.length ? `SKU:\n${lines.join("\n")}` : "SKU:";
 	}
-	return lines.length ? `SKU: ${lines[0]}` : "SKU:";
+	return lines.length ? `SKU: \n${lines[0]}` : "SKU:";
 }
 
 function generateCoverPage(upc, pcsCount, outputPath) {
@@ -543,6 +560,7 @@ async function processSingleBatch(batchItem, batchFolder, showJson) {
 
 	const upcPageRanges = {};
 	const processedOrders = new Set();
+	const processedUpcList = [];
 
 	for (let upcIndex = 0; upcIndex < batchItem.upcUniqueList.length; upcIndex++) {
 		const upc = batchItem.upcUniqueList[upcIndex];
@@ -550,62 +568,66 @@ async function processSingleBatch(batchItem, batchFolder, showJson) {
 		
 		if (upcOrders.length === 0) continue;
 		
-		const sanitizedUpc = sanitizeFileName(upc);
-		const prefix = `u${upcIndex.toString().padStart(3, "0")}`;
-		const filePrefix = `${prefix}_${sanitizedUpc}`;
-		const actualUpcOrders = [];
-		const orderedPdfFiles = [];
+		const groupedOrders = splitMultipleOrdersByExactSku(upcOrders);
 		
-		for (const order of upcOrders) {
-
-			if (processedOrders.has(order.orderNo)) {
-				continue;
+		for (const [groupIndex, groupedOrder] of groupedOrders.entries()) {
+			const combinedUpc = groupedOrder.skuLines.join("");
+			const sanitizedUpc = sanitizeFileName(combinedUpc || groupedOrder.signature);
+			const prefix = `u${upcIndex.toString().padStart(3, "0")}g${groupIndex.toString().padStart(2, "0")}`;
+			const filePrefix = `${prefix}_${sanitizedUpc}`;
+			const actualUpcOrders = [];
+			const orderedPdfFiles = [];
+			
+			for (const order of groupedOrder.orders) {
+				if (processedOrders.has(order.orderNo)) {
+					continue;
+				}
+				actualUpcOrders.push(order);
+				processedOrders.add(order.orderNo);
 			}
-			actualUpcOrders.push(order);
-			processedOrders.add(order.orderNo);
-		}
 
-		for (const [orderPosition, order] of actualUpcOrders.entries()) {
-			const orderPrefix = String(orderPosition + 1).padStart(3, "0");
-			const labelFileName = `${filePrefix}_${orderPrefix}_${order.orderNo}.pdf`;
-			const labelFilePath = path.join(batchFolder, labelFileName);
-			orderedPdfFiles.push(labelFileName);
+			for (const [orderPosition, order] of actualUpcOrders.entries()) {
+				const orderPrefix = String(orderPosition + 1).padStart(3, "0");
+				const labelFileName = `${filePrefix}_${orderPrefix}_${order.orderNo}.pdf`;
+				const labelFilePath = path.join(batchFolder, labelFileName);
+				orderedPdfFiles.push(labelFileName);
 
-			try {
-				console.log(`正在下载: ${order.expressLabelUrl}`);
-				await downloadFile(order.expressLabelUrl, labelFilePath);
-				console.log(`下载完成: ${labelFilePath}`);
-			} catch (error) {
-				console.error(
-					`下载失败 ${order.expressLabelUrl}:`,
-					error.message,
+				try {
+					console.log(`正在下载: ${order.expressLabelUrl}`);
+					await downloadFile(order.expressLabelUrl, labelFilePath);
+					console.log(`下载完成: ${labelFilePath}`);
+				} catch (error) {
+					console.error(
+						`下载失败 ${order.expressLabelUrl}:`,
+						error.message,
+					);
+				}
+			}
+
+			const uniqueKey = `${upc}||${groupedOrder.signature}`;
+			processedUpcList.push(uniqueKey);
+			upcPageRanges[uniqueKey] = {
+				start: 0,
+				end: 0,
+				sanitized: sanitizedUpc,
+				prefix: prefix,
+				filePrefix: filePrefix,
+				count: actualUpcOrders.length,
+				orderedPdfFiles,
+			};
+
+			if (actualUpcOrders.length > 0) {
+				const coverUpc = groupedOrder.skuLines.length > 1 ? groupedOrder.skuLines : groupedOrder.skuLines[0];
+				const coverPath = path.join(
+					batchFolder,
+					`cover-${filePrefix}.pdf`,
 				);
+				generateCoverPage(coverUpc, actualUpcOrders.length, coverPath);
 			}
-		}
-
-		upcPageRanges[upc] = {
-
-
-			start: 0,
-			end: 0,
-			sanitized: sanitizedUpc,
-			prefix: prefix,
-			filePrefix: filePrefix,
-			count: actualUpcOrders.length,
-			orderedPdfFiles,
-		};
-
-
-		if (actualUpcOrders.length > 0) {
-			const coverPath = path.join(
-				batchFolder,
-				`cover-${filePrefix}.pdf`,
-			);
-			generateCoverPage(upc, actualUpcOrders.length, coverPath);
 		}
 	}
 
-	await mergePDFs(batchFolder, batchItem, upcPageRanges, batchItem.upcUniqueList);
+	await mergePDFs(batchFolder, batchItem, upcPageRanges, processedUpcList);
 }
 
 async function processMultipleBatch(batchItem, batchFolder, showJson) {

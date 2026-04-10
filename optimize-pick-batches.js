@@ -184,8 +184,8 @@ function buildAggregatedOutputItemKey(rawItem) {
 		item.zoneName,
 		item.shelfNo,
 		item.shelfName,
-		item.upc,
-		item.sku,
+		(item.upc || "").toLowerCase(),
+		(item.sku || "").toLowerCase(),
 	].join("||");
 }
 
@@ -197,10 +197,6 @@ function buildAggregatedOutputItemKey(rawItem) {
  * @returns {Set<string>} 该 group 的输出项 key 集合。
  */
 function buildGroupOutputItemKeySet(type, labelItems) {
-	if (type !== "multiple") {
-		return new Set();
-	}
-
 	const keySet = new Set();
 	for (const item of labelItems || []) {
 		keySet.add(buildAggregatedOutputItemKey(item));
@@ -707,6 +703,62 @@ function collectLabelItems(orderNoList, orderLabelMap) {
 }
 
 /**
+ * 预处理批次，合并 UPC 小写相同且库位相同的 UPC 和 orders。
+ *
+ * @param {Record<string, any>} batch 原始批次。
+ * @returns {Record<string, any>} 预处理后的批次。
+ */
+function preprocessBatch(batch) {
+	const upcUniqueList = Array.isArray(batch.upcUniqueList) ? batch.upcUniqueList : [];
+	const ordersList = Array.isArray(batch.orders) ? batch.orders : [];
+
+	const mergedMap = new Map();
+
+	for (let i = 0; i < upcUniqueList.length; i++) {
+		const upcUnique = upcUniqueList[i];
+		const orders = ordersList[i] || [];
+		
+		// 直接从 batch.labelDesc 中查找与当前 UPC 小写匹配的 item
+		let locationKey = "";
+		for (const zone of batch.labelDesc || []) {
+			for (const item of zone.items || []) {
+				const itemUpc = item.upc || item.sku || "";
+				if (itemUpc.toLowerCase() === upcUnique.toLowerCase()) {
+					locationKey = `${item.zoneNo}||${item.zoneName}||${item.shelfNo}||${item.shelfName}`;
+					break;
+				}
+			}
+			if (locationKey) break;
+		}
+		
+		// 构建合并 key：UPC 小写 + 库位
+		const key = `${upcUnique.toLowerCase()}||${locationKey}`;
+		
+		if (!mergedMap.has(key)) {
+			mergedMap.set(key, {
+				upcUnique,
+				orders: []
+			});
+		}
+		mergedMap.get(key).orders.push(...orders);
+	}
+
+	const newUpcUniqueList = [];
+	const newOrdersList = [];
+
+	for (const item of mergedMap.values()) {
+		newUpcUniqueList.push(item.upcUnique);
+		newOrdersList.push(item.orders);
+	}
+
+	return {
+		...batch,
+		upcUniqueList: newUpcUniqueList,
+		orders: newOrdersList
+	};
+}
+
+/**
  * 将原始批次拆成可稳定重排的 group 列表。
  *
  * @param {"single"|"multiple"} type 当前处理的数据类型。
@@ -730,9 +782,15 @@ function buildGroups(type, batches) {
 	const groups = [];
 
 	for (let batchIndex = 0; batchIndex < (batches || []).length; batchIndex++) {
-		const batch = batches[batchIndex] || {};
-		const orderLabelMap = type === "single" ? buildOrderLabelMap(batch.labelDesc) : null;
-		const labelPool = type === "multiple" ? createLabelPool(batch.labelDesc) : null;
+		let batch = batches[batchIndex] || {};
+		
+		// 预处理批次：合并大小写相同的 UPC 和 orders
+		if (type === "single") {
+			batch = preprocessBatch(batch);
+		}
+		
+		const labelPool = createLabelPool(batch.labelDesc);
+		const orderLabelMap = buildOrderLabelMap(batch.labelDesc);
 		const upcUniqueList = Array.isArray(batch.upcUniqueList) ? batch.upcUniqueList : [];
 		const ordersList = Array.isArray(batch.orders) ? batch.orders : [];
 
@@ -742,9 +800,15 @@ function buildGroups(type, batches) {
 			if (!rawOrders.length) continue;
 
 			const { orders, orderNoList, pieceCount } = summarizeOrders(type, rawOrders);
-			const labelItems = type === "multiple"
-				? allocateLabelItemsByDemand(buildUpcDemandMap(orders), labelPool, orderNoList[0] || "")
-				: collectLabelItems(orderNoList, orderLabelMap);
+			
+			// Single 和 Multiple 都使用 allocateLabelItemsByDemand
+			// labelDesc 中的 orderNo 字段不重要，因为拣货单不打印
+			const labelItems = allocateLabelItemsByDemand(
+				buildUpcDemandMap(orders), 
+				labelPool, 
+				""  // 不传 fallbackOrderNo，让它用原始 item 的 orderNo
+			);
+			
 			const outputItemKeySet = buildGroupOutputItemKeySet(type, labelItems);
 
 			groups.push({
@@ -755,7 +819,7 @@ function buildGroups(type, batches) {
 				orders,
 				orderNoList,
 				labelItems,
-				slotCost: type === "multiple" ? outputItemKeySet.size : getSingleGroupSlotCost(orders),
+				slotCost: outputItemKeySet.size,
 				outputItemKeySet,
 				pieceCount,
 				location: buildLocationSummary(labelItems),
@@ -1020,16 +1084,11 @@ function toOutputLabelItem(item) {
  * 可直接用于输出和统计的明细列表。
  */
 function aggregateOutputLabelItems(type, items) {
-	if (type !== "multiple") {
-		return [...items];
-	}
-
 	const aggregatedMap = new Map();
 
 	for (const rawItem of items) {
 		const item = normalizeLabelItem(rawItem, rawItem?.zoneName);
 		const key = buildAggregatedOutputItemKey(item);
-
 
 		if (!aggregatedMap.has(key)) {
 			aggregatedMap.set(key, { ...item });
@@ -1146,7 +1205,7 @@ function optimizeSingleBatchesByPath(batches, boxSize) {
 		totalItems: 0,
 	};
 	let currentGroups = [];
-	let currentUsedSlots = 0;
+	let currentOutputItemKeySet = new Set();
 
 	const flushCurrentBatch = () => {
 		if (currentGroups.length === 0) {
@@ -1162,20 +1221,28 @@ function optimizeSingleBatchesByPath(batches, boxSize) {
 		metrics.totalShelfSwitches += batchMetrics.totalShelfSwitches;
 		metrics.totalItems += batchMetrics.totalItems;
 		currentGroups = [];
-		currentUsedSlots = 0;
+		currentOutputItemKeySet = new Set();
 	};
 
 	for (const group of groups) {
-		const nextUsedSlots = currentUsedSlots + group.slotCost;
+		let addedCount = 0;
+		for (const key of group.outputItemKeySet) {
+			if (!currentOutputItemKeySet.has(key)) {
+				addedCount += 1;
+			}
+		}
+		const nextUsedSlots = currentOutputItemKeySet.size + addedCount;
 		
-		const shouldFlush = (currentGroups.length > 0 && nextUsedSlots > boxSize);
+		let shouldFlush = (currentGroups.length > 0 && nextUsedSlots > boxSize);
 		
 		if (shouldFlush) {
 			flushCurrentBatch();
 		}
 		
 		currentGroups.push(group);
-		currentUsedSlots += group.slotCost;
+		for (const key of group.outputItemKeySet) {
+			currentOutputItemKeySet.add(key);
+		}
 	}
 
 	flushCurrentBatch();
@@ -1267,6 +1334,53 @@ function optimizeTypeBatches(type, batches, boxSize) {
 }
 
 /**
+ * 把所有 single 批次合并成一个大批次
+ *
+ * @param {Array<Record<string, any>>} batches 原始 single 批次数组
+ * @returns {Record<string, any>} 合并后的单个大批次
+ */
+function mergeAllSingleBatches(batches) {
+	const allUpcUniqueList = [];
+	const allOrders = [];
+	const allOrderNoList = [];
+	const allLabelDescMap = new Map();
+
+	for (const batch of batches || []) {
+		const upcUniqueList = Array.isArray(batch.upcUniqueList) ? batch.upcUniqueList : [];
+		const ordersList = Array.isArray(batch.orders) ? batch.orders : [];
+		const orderNoList = Array.isArray(batch.orderNoList) ? batch.orderNoList : [];
+		const labelDesc = Array.isArray(batch.labelDesc) ? batch.labelDesc : [];
+
+		allUpcUniqueList.push(...upcUniqueList);
+		allOrders.push(...ordersList);
+		allOrderNoList.push(...orderNoList);
+
+		for (const zone of labelDesc) {
+			const zoneName = zone.zoneName;
+			if (!allLabelDescMap.has(zoneName)) {
+				allLabelDescMap.set(zoneName, []);
+			}
+			allLabelDescMap.get(zoneName).push(...(zone.items || []));
+		}
+	}
+
+	const allLabelDesc = [];
+	for (const [zoneName, items] of allLabelDescMap.entries()) {
+		allLabelDesc.push({
+			zoneName,
+			items
+		});
+	}
+
+	return {
+		upcUniqueList: allUpcUniqueList,
+		orders: allOrders,
+		orderNoList: allOrderNoList,
+		labelDesc: allLabelDesc
+	};
+}
+
+/**
  * 对完整订单 JSON 执行优化，并同时产出统计信息。
  *
  * @param {{ single?: Array<Record<string, any>>, multiple?: Array<Record<string, any>> }} data 原始订单 JSON。
@@ -1280,7 +1394,14 @@ function optimizeTypeBatches(type, batches, boxSize) {
  * }} 优化后的 JSON 和统计摘要。
  */
 function optimizePickingData(data, boxSize = DEFAULT_BOX_SIZE) {
-	const singleResult = optimizeTypeBatches("single", data.single || [], boxSize);
+	let singleBatches = data.single || [];
+	
+	if (singleBatches.length > 0) {
+		const mergedBatch = mergeAllSingleBatches(singleBatches);
+		singleBatches = [mergedBatch];
+	}
+	
+	const singleResult = optimizeTypeBatches("single", singleBatches, boxSize);
 	const multipleResult = optimizeTypeBatches("multiple", data.multiple || [], boxSize);
 
 	return {
